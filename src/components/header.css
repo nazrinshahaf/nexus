@@ -1,0 +1,49 @@
+header {
+  background-color: #c4c4c4;
+  margin-bottom: 1.45em;
+  height: 110px;
+  padding: 10px 40px;
+}
+.navbar-contents {
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-logo-container {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  text-decoration-line: none;
+}
+.nexus-unique-logo-left {
+  width: 45px;
+  height: 45px;
+  background-color: #970ead;
+}
+.nexus-unique-logo-center {
+  width: 45px;
+  height: 45px;
+  background-color: #fa8341;
+}
+.nexus-unique-logo-right {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+}
+.nexus-unique-logo-title {
+  color: white;
+  margin: 0 0 0 20px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.navbar-contents-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  align-items: center;
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
