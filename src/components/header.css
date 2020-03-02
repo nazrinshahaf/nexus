@@ -42,8 +42,11 @@ header {
   justify-content: space-between;
   width: 50vw;
   align-items: center;
-  color: white;
-  font-size: 17px;
-  text-transform: uppercase;
   cursor: pointer;
+}
+.navbar-content-link {
+  text-transform: uppercase;
+  text-decoration-line: none;
+  font-size: 17px;
+  color: white;
 }

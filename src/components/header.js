@@ -14,18 +14,18 @@ const Header = ({ siteTitle }) => (
       </Link>
 
       <div className="navbar-contents-container">
-        <div>
-          <Link to="/about">About us</Link>
-        </div>
-        <div>
-          <Link to="/services">Our Services</Link>
-        </div>
-        <div>
-          <Link to="/brands-we-work-with">Brands We Work With</Link>
-        </div>
-        <div>
-          <Link to="/contact-us">Contact us</Link>
-        </div>
+        <Link className="navbar-content-link" to="/about">
+          <div>About us</div>
+        </Link>
+        <Link className="navbar-content-link" to="/services">
+          <div>Our Services</div>
+        </Link>
+        <Link className="navbar-content-link" to="/brands-we-work-with">
+          <div>Brands We Work With</div>
+        </Link>
+        <Link className="navbar-content-link" to="/contact-us">
+          <div>Contact us</div>
+        </Link>
       </div>
     </div>
   </header>
