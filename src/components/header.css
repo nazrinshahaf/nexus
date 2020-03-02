@@ -1,5 +1,5 @@
 header {
-  background-color: #c4c4c4;
+  background-color: #d2d3d5;
   margin-bottom: 1.45em;
   height: 110px;
   padding: 10px 40px;
@@ -19,12 +19,12 @@ header {
 .nexus-unique-logo-left {
   width: 45px;
   height: 45px;
-  background-color: #970ead;
+  background-color: #a26dad;
 }
 .nexus-unique-logo-center {
   width: 45px;
   height: 45px;
-  background-color: #fa8341;
+  background-color: #f79733;
 }
 .nexus-unique-logo-right {
   width: 45px;

@@ -1,0 +1,63 @@
+footer {
+  background-color: #d2d3d5;
+  height: 440px;
+  padding: 100px 100px;
+}
+
+.footer-contents {
+  height: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-left {
+  width: 320px;
+}
+.nexus-logo {
+  height: 40px;
+  margin: 0;
+}
+.footer-left-link {
+  text-decoration-line: none;
+  color: white;
+  cursor: pointer;
+}
+.footer-left-link-text {
+  margin: 10px 0 0 20px;
+  font-size: 22px;
+}
+.footer-center {
+  width: 320px;
+}
+.footer-contact-info {
+  color: white;
+  margin: 0 0 50px 0;
+  font-size: 20px;
+}
+.contact-phone {
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+  color: #a26dad;
+}
+.contact-email {
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+  color: #a26dad;
+}
+.footer-right {
+  width: 320px;
+}
+.footer-address {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #a26dad;
+  margin: 0 0 10px;
+}
+.footer-address-content {
+  color: white;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+}
+.footer-address-body {
+  color: white;
+}
