@@ -1,17 +1,24 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+}
 .our-services-container {
   background-color: #84a59d;
   height: 400px;
   padding: 0 150px;
   display: flex;
   align-items: center;
-  color: #25283d;
   justify-content: space-around;
+  background-image: url(../images/services.jpg);
+  background-position: center;
 }
 .our-services-title {
+  color: #25283d;
   width: 300px;
   font-size: 65px;
 }
 .our-services-header {
+  color: #a26dad;
   margin: 0 0 0 100px;
   width: 500px;
   font-size: 20px;
@@ -24,7 +31,11 @@
   flex-direction: column;
   justify-content: center;
 }
+.our-services-paragraph {
+  font-size: 25px;
+}
 /* STYLE 1 */
+
 /* .our-services-card-container {
   padding: 50px 150px;
   height: 500px;
@@ -40,7 +51,8 @@
   border-bottom: 1px solid black;
 } */
 /* STYLE 2 */
-.our-services-card-container {
+
+/* .our-services-card-container {
   padding: 50px 150px;
   height: 650px;
   display: flex;
@@ -57,4 +69,57 @@
 }
 .our-services-card-content-container {
   width: 600px;
+} */
+/* STYLE 3 */
+
+.our-services-card-container {
+  background-color: #25283d;
+  width: 100vw;
+  height: 500px;
+  padding: 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-services-card {
+  width: 600px;
+  text-align: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
+.our-services-card-active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-services-card-purple {
+  background-color: #a26dad;
+}
+.our-services-card-purple:hover {
+  background-color: #6e4a75;
+}
+.our-services-card-orange {
+  background-color: #f79733;
+}
+.our-services-card-orange:hover {
+  background-color: #ca7b27;
+}
+.our-services-card-white {
+  background-color: #ffffff;
+}
+.our-services-card-white:hover {
+  background-color: #c4c4c4;
+}
+.our-services-card-list {
+  margin: 0;
+}
+.our-services-card-list li {
+  margin: 0 0 0 0;
+  text-align: left;
 }

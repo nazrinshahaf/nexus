@@ -4,43 +4,55 @@ import Layout from "../components/layout"
 import "../components/services.css"
 
 const Services = () => {
-  const [overtPR, setOvertPR] = useState(true)
-  const [covertPR, setCovertPR] = useState(false)
-  const [digitalPR, setDigitalPR] = useState(false)
+  // STYLE 2
 
-  const setCardOvertPR = () => {
-    setOvertPR(true)
-    setCovertPR(false)
-    setDigitalPR(false)
-  }
-  const setCardCovertPR = () => {
-    setOvertPR(false)
-    setCovertPR(true)
-    setDigitalPR(false)
-  }
-  const setCardDigitalPR = () => {
-    setOvertPR(false)
-    setCovertPR(false)
-    setDigitalPR(true)
+  // const [overtPR, setOvertPR] = useState(true)
+  // const [covertPR, setCovertPR] = useState(false)
+  // const [digitalPR, setDigitalPR] = useState(false)
+
+  // const setCardOvertPR = () => {
+  //   setOvertPR(true)
+  //   setCovertPR(false)
+  //   setDigitalPR(false)
+  // }
+  // const setCardCovertPR = () => {
+  //   setOvertPR(false)
+  //   setCovertPR(true)
+  //   setDigitalPR(false)
+  // }
+  // const setCardDigitalPR = () => {
+  //   setOvertPR(false)
+  //   setCovertPR(false)
+  //   setDigitalPR(true)
+  // }
+
+  // STYLE 3
+
+  const [overtPR, setOvertPR] = useState(true)
+  console.log(overtPR, "OVERPT")
+  const overtPRHover = () => {
+    setOvertPR(!overtPR)
+    console.log("HOVERED")
   }
   return (
     <Layout>
       <div className="our-services-container">
         <h1 className="our-services-title">Our Services</h1>
         <p className="our-services-header">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
           ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
+          tempor incididunt ut labore et dolore magna aliqua. */}
         </p>
       </div>
       <div className="our-services-main-content">
         <h2 className="our-services-h2">STRATEGIC PUBLIC RELATIONS</h2>
         <p className="our-services-paragraph">
-          We examine where the organisation stands in the current landscape; and
-          we identify and analyse the immediate and long term goals. With this,
-          it enables us to propose a comprehensive campaign that is effective
-          and relevant to the clients’ businesses and their target audiences.
+          <span style={{ color: "purple", fontSize: "45px" }}>W</span>e examine
+          where the organisation stands in the current landscape; and we
+          identify and analyse the immediate and long term goals. With this, it
+          enables us to propose a comprehensive campaign that is effective and
+          relevant to the clients’ businesses and their target audiences.
           <br />
           <br />
           We integrate various components of communications such as branding,
@@ -101,7 +113,7 @@ const Services = () => {
       </div>
     </div> */}
       {/* STYLE 2 */}
-      <div className="our-services-card-container">
+      {/* <div className="our-services-card-container">
         <div className="our-services-card-title-container">
           <div
             className="our-services-card-title"
@@ -169,6 +181,50 @@ const Services = () => {
               </>
             )}
           </ul>
+        </div>
+      </div> */}
+      {/* STYLE 3 */}
+      <div className="our-services-card-container">
+        <div
+          className="our-services-card our-services-card-purple"
+          onMouseOver={overtPRHover}
+          onMouseLeave={overtPRHover}
+        >
+          {overtPR ? (
+            <div className="our-services-card-active">
+              <div style={{ marginBottom: "30px" }}>OVERT PR</div>
+              <div>"THE SEEN"</div>
+            </div>
+          ) : (
+            <ul
+              style={{ listStyle: "none" }}
+              className="our-services-card-list"
+            >
+              <li>Media Briefings,</li>
+              <li>Press Conferences,</li>
+              <li>Manufactured News,</li>
+              <li>Releases,</li>
+              <li>Exclusive Interviews with:</li>
+              {/* <ul style={{ listStyle: "none" }}>
+                <li> radio</li>
+                <li> TV stations</li>
+                <li> prints </li>
+                <li> and </li>
+                <li> magazines</li>
+              </ul> */}
+              <li>Media Relationship,</li>
+              <li>Thought Leadership,</li>
+              <li>Speaking Engagements,</li>
+            </ul>
+          )}
+        </div>
+        <div className="our-services-card our-services-card-orange">
+          <div style={{ marginBottom: "30px" }}>COVERT PR</div>
+          <div>"THE UNSEEN"</div>
+        </div>
+        <div className="our-services-card our-services-card-white">
+          <div style={{ marginBottom: "30px" }}>DIGITAL PR</div>
+          <div>"THE NAKED"</div>
         </div>
       </div>
     </Layout>

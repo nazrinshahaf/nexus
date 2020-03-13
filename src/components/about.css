@@ -4,6 +4,10 @@
   align-items: center;
   padding: 0 150px;
   justify-content: space-around;
+  background-image: url(../images/about2.jpg);
+  background-size: cover;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
 }
 .about-us-title {
   width: 300px;
@@ -12,12 +16,24 @@
 .about-us-header {
   margin: 0 0 0 100px;
   width: 500px;
-  font-size: 20px;
-  text-align: justify;
+  font-size: 30px;
+  /* text-align: justify; */
+  font-family: "Roboto", sans-serif;
+  line-height: 32px;
 }
 .about-us-main-content {
+  font-size: 25px;
   padding: 0 150px;
-  background-color: gray;
-  height: 400px;
-  text-align: justify;
+  /* background: gray; */
+  color: unset;
+  height: 800px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* background-image: url(../images//about2.jpg); */
+  /* background-image: url(../images//about3.jpg); */
+  /* background-size: cover;
+  background-position-y: -20px;
+  background-repeat: no-repeat; */
 }
