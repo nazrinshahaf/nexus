@@ -1,21 +1,19 @@
-@font-face {
-  font-family: "Roboto";
-  src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-}
 .our-services-container {
-  background-color: #84a59d;
   height: 400px;
   padding: 0 150px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  background-image: url(../images/services.jpg);
-  background-position: center;
+  /* justify-content: space-around; */
+  background-image: url(../images/services2.jpeg);
+  background-position-y: -250px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .our-services-title {
   color: #25283d;
-  width: 300px;
+  /* width: 400px; */
   font-size: 65px;
+  margin: 0 0 0 50px;
 }
 .our-services-header {
   color: #a26dad;
@@ -31,8 +29,16 @@
   flex-direction: column;
   justify-content: center;
 }
+.our-services-h2 {
+  margin: 0 0 40px 0px;
+  font-size: 40px;
+}
 .our-services-paragraph {
   font-size: 25px;
+}
+.our-services-paragraph::first-letter {
+  color: purple;
+  font-size: 70px;
 }
 /* STYLE 1 */
 
@@ -73,9 +79,9 @@
 /* STYLE 3 */
 
 .our-services-card-container {
-  background-color: #25283d;
+  /* background-color: #25283d; */
   width: 100vw;
-  height: 500px;
+  /* height: 500px; */
   padding: 0px 0px;
   display: flex;
   flex-direction: row;
@@ -86,7 +92,7 @@
 .our-services-card {
   width: 600px;
   text-align: center;
-  height: 500px;
+  height: 260px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,24 +104,36 @@
   flex-direction: column;
   justify-content: center;
 }
+.our-services-card-title-container {
+  height: 60px;
+  margin: 40px 0 0 0;
+  line-height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.our-services-card-title {
+  color: white;
+}
 .our-services-card-purple {
-  background-color: #a26dad;
+  background-image: url(../images/Hilary.jpg);
+  /* background-position-y: -20px; */
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 450px 260px;
 }
-.our-services-card-purple:hover {
-  background-color: #6e4a75;
-}
+
 .our-services-card-orange {
-  background-color: #f79733;
+  background-image: url(../images/digital.png);
+  /* background-size: 600px 260px; */
+  background-size: 450px 260px;
+  /* background-size: contain; */
+
+  background-repeat: no-repeat;
 }
-.our-services-card-orange:hover {
-  background-color: #ca7b27;
-}
+
 .our-services-card-white {
   background-color: #ffffff;
 }
-.our-services-card-white:hover {
-  background-color: #c4c4c4;
-}
+
 .our-services-card-list {
   margin: 0;
 }

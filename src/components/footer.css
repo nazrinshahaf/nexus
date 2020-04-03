@@ -22,6 +22,10 @@ footer {
   color: white;
   cursor: pointer;
 }
+.footer-left-link:hover {
+  color: #a26dad;
+  transition: 0.5s;
+}
 .footer-left-link-text {
   margin: 10px 0 0 20px;
   font-size: 22px;

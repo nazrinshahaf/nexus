@@ -34,7 +34,7 @@ const Footer = () => (
         </div>
         <div className="footer-contact-info">
           <div className="contact-email">Email</div>
-          <div>changelater@zulul.com</div>
+          <div>info.nexusunique@gmail.com</div>
         </div>
       </div>
       <div className="footer-right">
