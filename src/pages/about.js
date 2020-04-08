@@ -37,7 +37,7 @@ const About = () => (
           formation of Nexus Unique."
           <br />
           <br />
-          Izjulia Ishak, Chief Strategic Officer.
+          Izjulia Ishak, Chief Strategic Officer
         </div>
         <div className="about-us-main-content-paragraph">
           We have worked for leading Malaysian conglomerates and understand,
@@ -55,7 +55,7 @@ const About = () => (
           produce."
           <br />
           <br />
-          Tunku Nafishah, Cheif Executive Officer
+          Tunku Nafishah, Chief Executive Officer
         </div>
       </div>
     </div>

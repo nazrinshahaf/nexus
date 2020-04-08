@@ -29,12 +29,14 @@ const Footer = () => (
       <div className="footer-center">
         <div className="footer-contact-info">
           <div className="contact-phone">Phone</div>
-          <div>Tele : +603 7733 1601</div>
-          <div>Fax : +603 7726 1601</div>
+          <div className="footer-contact-details">Tele : +603 7733 1601</div>
+          <div className="footer-contact-details">Fax : +603 7726 1601</div>
         </div>
         <div className="footer-contact-info">
           <div className="contact-email">Email</div>
-          <div>info.nexusunique@gmail.com</div>
+          <div className="footer-contact-details">
+            info.nexusunique@gmail.com
+          </div>
         </div>
       </div>
       <div className="footer-right">

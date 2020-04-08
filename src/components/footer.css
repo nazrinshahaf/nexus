@@ -21,6 +21,7 @@ footer {
   text-decoration-line: none;
   color: white;
   cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .footer-left-link:hover {
   color: #a26dad;
@@ -42,11 +43,13 @@ footer {
   text-transform: uppercase;
   margin: 0 0 10px 0;
   color: #a26dad;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .contact-email {
   text-transform: uppercase;
   margin: 0 0 10px 0;
   color: #a26dad;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .footer-right {
   width: 320px;
@@ -56,12 +59,18 @@ footer {
   font-size: 20px;
   color: #a26dad;
   margin: 0 0 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .footer-address-content {
   color: white;
   margin: 0 0 20px 0;
   font-weight: bold;
+  font-family: "Open Sans", sans-serif;
 }
 .footer-address-body {
   color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.footer-contact-details {
+  font-family: "Open Sans", sans-serif;
 }
