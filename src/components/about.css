@@ -19,8 +19,21 @@
   font-family: "Open Sans", sans-serif;
   line-height: 28px;
 }
+.about-us-title-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-us-title-line {
+  width: 440px;
+  height: 1px;
+  background-color: #a26dad;
+  margin: 20px 0 0 0;
+}
 .about-us-our-story {
   font-size: 30px;
+  text-align: center;
+  margin: 0 20px 0 20px;
+  color: #a26dad;
 }
 .about-us-main-content {
   margin: 0px 0 0 0;
@@ -33,6 +46,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .about-us-main-content-paragraph {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 20px 0 0 0;
 }
 .about-us-quote {
@@ -40,4 +54,49 @@
   font-family: "PT Serif", serif;
   font-size: 20px;
   color: purple;
+}
+.about-us-our-team-main-content {
+  /* background-color: rgb(210, 211, 213); */
+}
+.about-us-our-team-container {
+  background-color: #a26dad;
+  margin: 50px 0 200px 145px;
+  padding: 50px 40px;
+  width: 900px;
+  position: relative;
+}
+.about-us-our-team-container-alt {
+  background-color: #f79733;
+  margin: 50px 0 0 315px;
+}
+.about-us-our-team-image-container {
+  position: absolute;
+  background-color: lightgray;
+  height: 350px;
+  width: 280px;
+  top: 80px;
+  right: -250px;
+  text-align: center;
+  line-height: 350px;
+}
+.about-us-our-team-image-container-alt {
+  top: 80px;
+  left: -250px;
+}
+.about-us-our-team-image-container-alt2 {
+  top: 140px;
+}
+.about-us-our-team-names {
+  font-size: 32px;
+  margin: 0 0 10px 0;
+  color: black;
+  font-family: "Lato", sans-serif;
+}
+.about-us-our-team-occupation {
+  color: black;
+  font-size: 22px;
+  font-family: "Lato", sans-serif;
+}
+.our-team-main-description {
+  color: white;
 }
