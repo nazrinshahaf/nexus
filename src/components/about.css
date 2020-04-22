@@ -60,14 +60,14 @@
 }
 .about-us-our-team-container {
   background-color: #a26dad;
-  margin: 50px 0 200px 145px;
+  margin: 50px 0 100px 145px;
   padding: 50px 40px;
   width: 900px;
   position: relative;
 }
 .about-us-our-team-container-alt {
   background-color: #f79733;
-  margin: 50px 0 0 315px;
+  margin: 50px 0 100px 315px;
 }
 .about-us-our-team-image-container {
   position: absolute;
@@ -99,4 +99,5 @@
 }
 .our-team-main-description {
   color: white;
+  font-size: 20px;
 }
