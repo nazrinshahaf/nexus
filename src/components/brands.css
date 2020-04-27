@@ -1,0 +1,33 @@
+.brands-header-container {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 150px;
+}
+.brands-header-title {
+  font-size: 65px;
+  font-family: "Lato", sans-serif;
+  margin: 0 0 0 0;
+}
+.brands-main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 0 0 0;
+  font-size: 20px;
+  padding: 50px 150px;
+}
+.brands-container-title {
+  font-size: 35px;
+  margin: 0 0 50px 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  color: #a26dad;
+  text-align: center;
+}
+.brands-image-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
