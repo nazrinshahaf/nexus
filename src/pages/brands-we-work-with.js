@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import "../components/brands.css"
+
 import YYP from "../images/YYP.png"
 import YYAF from "../images/YYAF.jpeg"
 import UNI from "../images/UNI.png"
@@ -21,6 +22,19 @@ import WATAN from "../images/WATAN.jpg"
 import VTELE from "../images/VTELE.jpg"
 import JARING from "../images/JARING.png"
 import SLMFN from "../images/SLMFN.png"
+import ISLIM from "../images/ISLIM.png"
+import SCHIN from "../images/SCHIN.png"
+import SPANCO from "../images/SPANCO.png"
+import NEWPAR from "../images/NEWPAR.jpeg"
+import MPOC from "../images/MPOC.png"
+import UEM from "../images/UEM.png"
+import MATRADE from "../images/MATRADE.png"
+import MOE from "../images/MOE.png"
+import SELANG from "../images/SELANG.png"
+import CGC from "../images/CGC.png"
+import INVSELANG from "../images/INVSELANG.png"
+import MBI from "../images/MBI.jpg"
+import MTDC from "../images/MTDC.png"
 
 const BrandsWeWorkWith = () => (
   <Layout>
@@ -46,7 +60,9 @@ const BrandsWeWorkWith = () => (
       </div>
     </div>
     <div className="brands-main-content">
-      <div className="brands-container-title">Broadcasting</div>
+      <div className="brands-container-title  brands-container-title-alt">
+        Broadcasting
+      </div>
       <div className="brands-image-container">
         <img
           src={MEDPRI}
@@ -75,7 +91,9 @@ const BrandsWeWorkWith = () => (
       </div>
     </div>
     <div className="brands-main-content">
-      <div className="brands-container-title">Money Services Business</div>
+      <div className="brands-container-title  brands-container-title-alt">
+        Money Services Business
+      </div>
       <div className="brands-image-container">
         <img
           src={MERTR}
@@ -103,7 +121,9 @@ const BrandsWeWorkWith = () => (
       </div>
     </div>
     <div className="brands-main-content">
-      <div className="brands-container-title">ICT: B2B Portal</div>
+      <div className="brands-container-title  brands-container-title-alt">
+        ICT: B2B Portal
+      </div>
       <div className="brands-image-container">
         <img
           src={DGHAL}
@@ -154,6 +174,125 @@ const BrandsWeWorkWith = () => (
           src={SLMFN}
           className="brands-image"
           width="500px"
+          height="120px"
+        ></img>
+      </div>
+    </div>
+    <div className="brands-main-content">
+      <div className="brands-container-title brands-container-title-alt">
+        MNCs
+      </div>
+      <div className="brands-image-container">
+        <img src={ISLIM} className="brands-image" width="360px"></img>
+        <img
+          src={SCHIN}
+          className="brands-image"
+          width="165px"
+          height="130px"
+        ></img>
+      </div>
+    </div>
+    <div className="brands-main-content">
+      <div className="brands-container-title">Fleet Management</div>
+      <div className="brands-image-container">
+        <img
+          src={SPANCO}
+          className="brands-image"
+          width="400px"
+          height="110px"
+        ></img>
+      </div>
+    </div>
+    <div className="brands-main-content">
+      <div className="brands-container-title brands-container-title-alt">
+        Capital Market
+      </div>
+      <div className="brands-image-container">
+        <img
+          src={NEWPAR}
+          className="brands-image"
+          width="400px"
+          height="110px"
+        ></img>
+      </div>
+    </div>
+    <div className="brands-main-content">
+      <div className="brands-container-title ">Secretariat</div>
+      <div className="brands-image-container">
+        <img
+          src={NEWPAR}
+          className="brands-image"
+          width="400px"
+          height="110px"
+        ></img>
+      </div>
+    </div>
+    <div className="brands-main-content">
+      <div className="brands-container-title brands-container-title-alt">
+        Council
+      </div>
+      <div className="brands-image-container">
+        <img src={MPOC} className="brands-image"></img>
+      </div>
+    </div>
+    <div className="brands-main-content">
+      <div className="brands-container-title ">GLCS & Goverment agencies</div>
+      <div className="brands-image-container">
+        <img
+          src={UEM}
+          className="brands-image"
+          width="205px"
+          height="115px"
+        ></img>
+        <img
+          src={MATRADE}
+          className="brands-image"
+          width="250px"
+          height="125px"
+        ></img>
+        <img
+          src={UDAHB}
+          className="brands-image"
+          width="250px"
+          height="120px"
+        ></img>
+        <img
+          src={MOE}
+          className="brands-image"
+          width="200px"
+          height="125px"
+        ></img>
+        <img
+          src={SELANG}
+          className="brands-image"
+          width="180px"
+          height="220px"
+        ></img>
+        <img
+          src={CGC}
+          className="brands-image"
+          width="200px"
+          height="120px"
+          style={{ margin: "50px 0 0 0" }}
+        ></img>
+        <img
+          src={INVSELANG}
+          className="brands-image"
+          width="220px"
+          height="120px"
+          style={{ margin: "50px 0 0 0" }}
+        ></img>
+        <img
+          src={MBI}
+          className="brands-image"
+          width="220px"
+          height="120px"
+          style={{ margin: "50px 0 0 0" }}
+        ></img>
+        <img
+          src={MTDC}
+          className="brands-image"
+          width="250px"
           height="120px"
         ></img>
       </div>

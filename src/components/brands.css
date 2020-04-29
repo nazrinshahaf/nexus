@@ -26,6 +26,9 @@
   color: #a26dad;
   text-align: center;
 }
+.brands-container-title-alt {
+  color: #f79733;
+}
 .brands-image-container {
   display: flex;
   justify-content: space-evenly;
