@@ -71,6 +71,22 @@ footer {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+.footer-address-body a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.footer-address-body a:hover {
+  color: #f79733;
+}
 .footer-contact-details {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.footer-contact-details a {
+  color: white;
+  text-decoration-line: none;
+  transition: 0.5s;
+}
+.footer-contact-details a:hover {
+  color: #f79733;
 }

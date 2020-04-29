@@ -29,13 +29,25 @@ const Footer = () => (
       <div className="footer-center">
         <div className="footer-contact-info">
           <div className="contact-phone">Phone</div>
-          <div className="footer-contact-details">Tele : +603 7733 1601</div>
-          <div className="footer-contact-details">Fax : +603 7726 1601</div>
+          <div className="footer-contact-details">
+            Mobi : <a href="tel:+6019 3380 900">+6019 3380 900</a>
+          </div>
+          <div className="footer-contact-details">
+            Mobi : <a href="tel:+6019 2200 500">+6019 2200 500</a>
+          </div>
+          <div className="footer-contact-details">
+            Tele : <a href="tel:+603 7733 1601">+603 7733 1601</a>
+          </div>
+          <div className="footer-contact-details">
+            Fax : <a href="tel:+603 7726 1601">+603 7726 1601</a>
+          </div>
         </div>
         <div className="footer-contact-info">
           <div className="contact-email">Email</div>
           <div className="footer-contact-details">
-            info.nexusunique@gmail.com
+            <a href="mailto:info.nexusunique@gmail.com">
+              info.nexusunique@gmail.com
+            </a>
           </div>
         </div>
       </div>
@@ -49,10 +61,15 @@ const Footer = () => (
           </span>
         </div>
         <div className="footer-address-body">
-          Suite 601, Block A, Lift Lobby 1 <br />
-          Damansara Intan Business Centre <br />
-          Jalan SS20/27, 27400 Petaling jaya <br />
-          Selangor Darul Ehsan, Malaysia
+          <a
+            href="https://www.google.com/maps/place/Nexus+Unique/@3.1300159,101.6271844,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc4947ab42df71:0x8fb1aaf9473056c0!8m2!3d3.1300159!4d101.6293731"
+            target="_blank"
+          >
+            Suite 601, Block A, Lift Lobby 1 <br />
+            Damansara Intan Business Centre <br />
+            Jalan SS20/27, 27400 Petaling jaya <br />
+            Selangor Darul Ehsan, Malaysia
+          </a>
         </div>
       </div>
     </div>
