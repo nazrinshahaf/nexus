@@ -32,7 +32,7 @@ const Contact = () => (
             ></input>
           </div>
         </div>
-        <div className="contact-input-row-container">
+        {/* <div className="contact-input-row-container">
           <div className="contact-input-row-flex-box">
             <label className="contact-label" for="email_input">
               Email
@@ -68,11 +68,12 @@ const Contact = () => (
               type="text"
             ></textarea>
           </div>
+        </div> */}
+        <div className="contact-input-row-container">
+          <button type="submit" className="contact-submit-button">
+            Submit
+          </button>
         </div>
-        {/* <div className="contact-input-row-container"></div> */}
-        <button type="submit" className="contact-submit-button">
-          Submit
-        </button>
       </div>
     </form>
   </Layout>
