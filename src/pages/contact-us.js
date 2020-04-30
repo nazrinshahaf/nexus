@@ -12,7 +12,7 @@ const Contact = () => (
       <h1 className="contact-header-title">Contact Us</h1>
       <div className="contact-line"></div>
     </div>
-    <form
+    {/* <form
       method="POST"
       name="nexus-contact-2"
       data-netlify="true"
@@ -32,7 +32,7 @@ const Contact = () => (
             ></input>
           </div>
         </div>
-        {/* <div className="contact-input-row-container">
+        <div className="contact-input-row-container">
           <div className="contact-input-row-flex-box">
             <label className="contact-label" for="email_input">
               Email
@@ -68,12 +68,28 @@ const Contact = () => (
               type="text"
             ></textarea>
           </div>
-        </div> */}
+        </div>
         <div className="contact-input-row-container">
           <button type="submit" className="contact-submit-button">
             Submit
           </button>
         </div>
+      </div>
+    </form> */}
+    <form
+      name="lmao123"
+      method="POST"
+      data-netlify="true"
+      style={{ margin: "150px" }}
+    >
+      <div>
+        <input type="text" name="name" placeholder="name"></input>
+        <input type="tel" name="phone" placeholder="phone"></input>
+        <input type="email" name="mail" placeholder="mail"></input>
+        <textarea name="message" placeholder="message here"></textarea>
+      </div>
+      <div>
+        <button type="submit">send</button>
       </div>
     </form>
   </Layout>
