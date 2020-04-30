@@ -12,7 +12,7 @@ const Contact = () => (
       <h1 className="contact-header-title">Contact Us</h1>
       <div className="contact-line"></div>
     </div>
-    <div className="contact-main-content">
+    {/* <div className="contact-main-content">
       <form
         method="post"
         name="contact"
@@ -41,7 +41,7 @@ const Contact = () => (
               className="contact-input-box"
               id="email_input"
               name="email_input"
-              type="text"
+              type="email"
             ></input>
           </div>
           <div className="contact-input-row-flex-box contact-input-row-flex-box-alt">
@@ -75,7 +75,48 @@ const Contact = () => (
           </button>
         </div>
       </form>
-    </div>
+    </div> */}
+    <form
+      method="post"
+      name="contact"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <input
+        name="name"
+        type="text"
+        placeholder="name"
+        style={{ margin: "0 0 0 100px" }}
+      ></input>
+      <input
+        name="phone"
+        type="tel"
+        placeholder="tel"
+        style={{ margin: "0 0 0 100px" }}
+      ></input>
+      <input
+        name="mail"
+        type="email"
+        placeholder="name"
+        style={{ margin: "0 0 0 100px" }}
+      ></input>
+      <textarea
+        name="message"
+        placeholder="message"
+        style={{ margin: "0 0 0 100px" }}
+      ></textarea>
+      <div>
+        <div>
+          <button
+            type="submit"
+            className="contact-submit-button"
+            style={{ width: "720px", margin: "100px" }}
+          >
+            send
+          </button>
+        </div>
+      </div>
+    </form>
   </Layout>
 )
 
