@@ -12,7 +12,7 @@ const Contact = () => (
       <h1 className="contact-header-title">Contact Us</h1>
       <div className="contact-line"></div>
     </div>
-    {/* <div className="contact-main-content">
+    <div className="contact-main-content">
       <form
         method="post"
         name="contact"
@@ -67,22 +67,15 @@ const Contact = () => (
               name="message_input"
               type="text"
             ></textarea>
-            <button type="submit" className="contact-submit-button">
-              Submit
-            </button>
           </div>
         </div>
+        <div className="contact-input-row-container">
+          <button type="submit" className="contact-submit-button">
+            Submit
+          </button>
+        </div>
       </form>
-    </div> */}
-    <form
-      method="post"
-      name="test"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-    >
-      <input type="text" name="test"></input>
-      <button type="submit">send</button>
-    </form>
+    </div>
   </Layout>
 )
 
