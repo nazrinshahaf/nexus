@@ -7,7 +7,7 @@ import "./header.css"
 const Header = ({ siteTitle }) => {
   const [headerAtTop, setHeaderAtTop] = useState(true)
 
-  document.addEventListener("scroll", () => {
+  window.addEventListener("scroll", () => {
     setHeaderAtTop(window.scrollY < 40)
   })
 
