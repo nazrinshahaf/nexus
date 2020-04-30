@@ -79,11 +79,9 @@ const Contact = () => (
     </form> */}
     <form
       method="post"
-      netlify-honeypot="bot-field"
       data-netlify="true"
       name="one-last-test-before-i-kill-myself"
     >
-      <input type="hidden" name="bot-field" />
       <input type="name" placeholder="name"></input>
       <button type="submit">submit</button>
     </form>
