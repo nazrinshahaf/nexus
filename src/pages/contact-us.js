@@ -12,12 +12,12 @@ const Contact = () => (
       <h1 className="contact-header-title">Contact Us</h1>
       <div className="contact-line"></div>
     </div>
-    {/* <div className="contact-main-content">
+    <div className="contact-main-content">
       <form
         method="post"
-        name="contact"
+        name="nexus-contact"
         data-netlify="true"
-        data-netlify-honeypot="bot-field"
+        // data-netlify-honeypot="bot-field"
       >
         <div className="contact-input-row-container">
           <div className="contact-input-row-flex-box">
@@ -69,54 +69,12 @@ const Contact = () => (
             ></textarea>
           </div>
         </div>
-        <div className="contact-input-row-container">
-          <button type="submit" className="contact-submit-button">
-            Submit
-          </button>
-        </div>
+        {/* <div className="contact-input-row-container"></div> */}
+        <button type="submit" className="contact-submit-button">
+          Submit
+        </button>
       </form>
-    </div> */}
-    <form
-      method="post"
-      name="contact"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-    >
-      <input
-        name="name"
-        type="text"
-        placeholder="name"
-        style={{ margin: "0 0 0 100px" }}
-      ></input>
-      <input
-        name="phone"
-        type="tel"
-        placeholder="tel"
-        style={{ margin: "0 0 0 100px" }}
-      ></input>
-      <input
-        name="mail"
-        type="email"
-        placeholder="name"
-        style={{ margin: "0 0 0 100px" }}
-      ></input>
-      <textarea
-        name="message"
-        placeholder="message"
-        style={{ margin: "0 0 0 100px" }}
-      ></textarea>
-      <div>
-        <div>
-          <button
-            type="submit"
-            className="contact-submit-button"
-            style={{ width: "720px", margin: "100px" }}
-          >
-            send
-          </button>
-        </div>
-      </div>
-    </form>
+    </div>
   </Layout>
 )
 
