@@ -11,12 +11,13 @@ const Header = ({ siteTitle }) => {
     setHeaderAtTop(window.scrollY < 40)
   })
 
-  console.log(headerAtTop, "HEADER AT TOP")
   return (
     <header
       style={
-        headerAtTop
-          ? { backgroundColor: "transparent" }
+        window.location.pathname !== "/contact-us"
+          ? headerAtTop
+            ? { backgroundColor: "transparent" }
+            : { backgroundColor: "#d2d3d5" }
           : { backgroundColor: "#d2d3d5" }
       }
     >
@@ -27,8 +28,10 @@ const Header = ({ siteTitle }) => {
           <div className="nexus-unique-logo-right"></div>
           <div
             className={
-              headerAtTop
-                ? "nexus-unique-logo-title"
+              window.location.pathname !== "/contact-us"
+                ? headerAtTop
+                  ? "nexus-unique-logo-title"
+                  : "nexus-unique-logo-title-active"
                 : "nexus-unique-logo-title-active"
             }
           >
@@ -40,14 +43,22 @@ const Header = ({ siteTitle }) => {
           <Link
             to="/about"
             className={
-              headerAtTop ? "navbar-content-link" : "navbar-content-link-active"
+              window.location.pathname !== "/contact-us"
+                ? headerAtTop
+                  ? "navbar-content-link"
+                  : "navbar-content-link-active"
+                : "navbar-content-link-active"
             }
           >
             <div>About us</div>
           </Link>
           <Link
             className={
-              headerAtTop ? "navbar-content-link" : "navbar-content-link-active"
+              window.location.pathname !== "/contact-us"
+                ? headerAtTop
+                  ? "navbar-content-link"
+                  : "navbar-content-link-active"
+                : "navbar-content-link-active"
             }
             to="/services"
           >
@@ -55,7 +66,11 @@ const Header = ({ siteTitle }) => {
           </Link>
           <Link
             className={
-              headerAtTop ? "navbar-content-link" : "navbar-content-link-active"
+              window.location.pathname !== "/contact-us"
+                ? headerAtTop
+                  ? "navbar-content-link"
+                  : "navbar-content-link-active"
+                : "navbar-content-link-active"
             }
             to="/brands-we-work-with"
           >
@@ -63,7 +78,11 @@ const Header = ({ siteTitle }) => {
           </Link>
           <Link
             className={
-              headerAtTop ? "navbar-content-link" : "navbar-content-link-active"
+              window.location.pathname !== "/contact-us"
+                ? headerAtTop
+                  ? "navbar-content-link"
+                  : "navbar-content-link-active"
+                : "navbar-content-link-active"
             }
             to="/contact-us"
           >
