@@ -80,9 +80,10 @@ const Contact = () => (
     <form
       method="post"
       data-netlify="true"
+      data-netlify-honeypot="bot-field"
       name="one-last-test-before-i-kill-myself"
     >
-      <input type="name" placeholder="name"></input>
+      <input name="name" type="name" placeholder="name"></input>
       <button>submit</button>
     </form>
   </Layout>
