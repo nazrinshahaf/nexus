@@ -79,12 +79,12 @@ const Contact = () => (
     </form> */}
     <form
       method="post"
+      name="test"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
-      name="one-last-test-before-i-kill-myself"
     >
-      <input name="name" type="name" placeholder="name"></input>
-      <button>submit</button>
+      <input type="text" name="test"></input>
+      <button type="submit">send</button>
     </form>
   </Layout>
 )
