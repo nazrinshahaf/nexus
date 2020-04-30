@@ -13,12 +13,12 @@ const Contact = () => (
       <div className="contact-line"></div>
     </div>
     <form
-      name="nexus-contact-2"
+      name="contact"
       method="post"
       netlify-honeypot="bot-field"
       data-netlify="true"
     >
-      <input type="hidden" name="bot-field" />
+      <input type="hidden" name="form-name" value="contact" />
       <div className="contact-main-content">
         <div className="contact-input-row-container">
           <div className="contact-input-row-flex-box">

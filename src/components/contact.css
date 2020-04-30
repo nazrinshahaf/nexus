@@ -51,7 +51,7 @@
   width: 720px;
 }
 .contact-input-box:focus {
-  border: 2px solid #a26dad;
+  border: 2px solid #f79733;
 }
 .contact-input-row-flex-box textarea {
   resize: vertical;
