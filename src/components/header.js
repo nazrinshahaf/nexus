@@ -7,18 +7,20 @@ import "./header.css"
 const Header = ({ siteTitle }) => {
   const [headerAtTop, setHeaderAtTop] = useState(true)
 
-  window.addEventListener("scroll", () => {
-    setHeaderAtTop(window.scrollY < 40)
-  })
+  // window.addEventListener("scroll", () => {
+  //   setHeaderAtTop(window.scrollY < 40)
+  // })
 
   return (
     <header
       style={
-        window.location.pathname !== "/contact-us"
-          ? headerAtTop
-            ? { backgroundColor: "transparent" }
-            : { backgroundColor: "#d2d3d5" }
-          : { backgroundColor: "#d2d3d5" }
+
+          // window.location.pathname !== "/contact-us"
+          //   ? headerAtTop
+          //     ? { backgroundColor: "transparent" }
+          //     : { backgroundColor: "#d2d3d5" }
+          //   : { backgroundColor: "#d2d3d5" }
+
       }
     >
       <div className="navbar-contents">
@@ -28,11 +30,13 @@ const Header = ({ siteTitle }) => {
           <div className="nexus-unique-logo-right"></div>
           <div
             className={
-              window.location.pathname !== "/contact-us"
-                ? headerAtTop
-                  ? "nexus-unique-logo-title"
-                  : "nexus-unique-logo-title-active"
-                : "nexus-unique-logo-title-active"
+
+                // window.location.pathname !== "/contact-us"
+                //   ? headerAtTop
+                //     ? "nexus-unique-logo-title"
+                //     : "nexus-unique-logo-title-active"
+                //   : "nexus-unique-logo-title-active"
+
             }
           >
             {siteTitle}
@@ -43,22 +47,26 @@ const Header = ({ siteTitle }) => {
           <Link
             to="/about"
             className={
-              window.location.pathname !== "/contact-us"
-                ? headerAtTop
-                  ? "navbar-content-link"
-                  : "navbar-content-link-active"
-                : "navbar-content-link-active"
+
+                // window.location.pathname !== "/contact-us"
+                //   ? headerAtTop
+                //     ? "navbar-content-link"
+                //     : "navbar-content-link-active"
+                //   : "navbar-content-link-active"
+
             }
           >
             <div>About us</div>
           </Link>
           <Link
             className={
-              window.location.pathname !== "/contact-us"
-                ? headerAtTop
-                  ? "navbar-content-link"
-                  : "navbar-content-link-active"
-                : "navbar-content-link-active"
+
+                // window.location.pathname !== "/contact-us"
+                //   ? headerAtTop
+                //     ? "navbar-content-link"
+                //     : "navbar-content-link-active"
+                //   : "navbar-content-link-active"
+
             }
             to="/services"
           >
@@ -66,11 +74,13 @@ const Header = ({ siteTitle }) => {
           </Link>
           <Link
             className={
-              window.location.pathname !== "/contact-us"
-                ? headerAtTop
-                  ? "navbar-content-link"
-                  : "navbar-content-link-active"
-                : "navbar-content-link-active"
+
+                // window.location.pathname !== "/contact-us"
+                //   ? headerAtTop
+                //     ? "navbar-content-link"
+                //     : "navbar-content-link-active"
+                //   : "navbar-content-link-active"
+
             }
             to="/brands-we-work-with"
           >
@@ -78,11 +88,13 @@ const Header = ({ siteTitle }) => {
           </Link>
           <Link
             className={
-              window.location.pathname !== "/contact-us"
-                ? headerAtTop
-                  ? "navbar-content-link"
-                  : "navbar-content-link-active"
-                : "navbar-content-link-active"
+
+                // window.location.pathname !== "/contact-us"
+                //   ? headerAtTop
+                //     ? "navbar-content-link"
+                //     : "navbar-content-link-active"
+                //   : "navbar-content-link-active"
+
             }
             to="/contact-us"
           >
