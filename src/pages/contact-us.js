@@ -13,7 +13,12 @@ const Contact = () => (
       <div className="contact-line"></div>
     </div>
     <div className="contact-main-content">
-      <form method="post" name="contact">
+      <form
+        method="post"
+        name="contact"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
         <div className="contact-input-row-container">
           <div className="contact-input-row-flex-box">
             <label className="contact-label" for="name_input">
