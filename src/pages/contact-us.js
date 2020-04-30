@@ -12,7 +12,12 @@ const Contact = () => (
       <h1 className="contact-header-title">Contact Us</h1>
       <div className="contact-line"></div>
     </div>
-    <form method="POST" name="nexus-contact-2" data-netlify="true">
+    <form
+      method="POST"
+      name="nexus-contact-2"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
       <div className="contact-main-content">
         <div className="contact-input-row-container">
           <div className="contact-input-row-flex-box">
