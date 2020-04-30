@@ -83,7 +83,7 @@ const Contact = () => (
       name="one-last-test-before-i-kill-myself"
     >
       <input type="name" placeholder="name"></input>
-      <button type="submit">submit</button>
+      <button>submit</button>
     </form>
   </Layout>
 )
