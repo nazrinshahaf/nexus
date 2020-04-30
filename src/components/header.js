@@ -1,16 +1,24 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 
 import "./header.css"
 
 const Header = ({ siteTitle }) => {
   const [headerAtTop, setHeaderAtTop] = useState(true)
 
-  window.addEventListener("scroll", () => {
-    setHeaderAtTop(window.scrollY < 40)
-  })
+  useEffect(() => {
+    const handleScrollY = () => {
+      setHeaderAtTop(window.scrollY < 40)
+    }
+    window.addEventListener("scroll", handleScrollY, { passive: true })
 
+    return () => window.removeEventListener("scroll", handleScrollY)
+  }, [headerAtTop])
+
+  // window.addEventListener("scroll", () => {
+  //   setHeaderAtTop(window.scrollY < 40)
+  // })
   return (
     <header
       style={
