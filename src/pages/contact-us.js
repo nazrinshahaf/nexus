@@ -84,13 +84,9 @@ const Contact = () => (
     >
       <div>
         <input type="text" name="name" placeholder="name"></input>
-        <input type="tel" name="phone" placeholder="phone"></input>
-        <input type="email" name="mail" placeholder="mail"></input>
-        <textarea name="message" placeholder="message here"></textarea>
       </div>
-      <div>
-        <button type="submit">send</button>
-      </div>
+
+      <button type="submit">send</button>
     </form>
   </Layout>
 )
