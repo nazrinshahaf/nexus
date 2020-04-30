@@ -77,7 +77,7 @@ const Contact = () => (
       </div>
     </form> */}
     <form
-      name="lmao123"
+      name="lmao1234"
       method="POST"
       data-netlify="true"
       style={{ margin: "150px" }}
