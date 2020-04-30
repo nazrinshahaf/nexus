@@ -1,12 +1,22 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState, useEffect } from "react"
+import { globalHistory } from "@reach/router"
 
 import "./header.css"
 
 const Header = ({ siteTitle }) => {
   const [headerAtTop, setHeaderAtTop] = useState(true)
+  const [isContactUsPage, setIsContactUsPage] = useState(false)
 
+  const path = globalHistory.location.pathname
+
+  useEffect(() => {
+    setIsContactUsPage(path === "/contact-us")
+    console.log(path, isContactUsPage)
+  }, [isContactUsPage])
+
+  console.log(path)
   useEffect(() => {
     const handleScrollY = () => {
       setHeaderAtTop(window.scrollY < 40)
@@ -19,13 +29,14 @@ const Header = ({ siteTitle }) => {
   // window.addEventListener("scroll", () => {
   //   setHeaderAtTop(window.scrollY < 40)
   // })
+
   return (
     <header
       style={
-        window.location.pathname !== "/contact-us"
-          ? headerAtTop
-            ? { backgroundColor: "transparent" }
-            : { backgroundColor: "#d2d3d5" }
+        headerAtTop
+          ? isContactUsPage
+            ? { backgroundColor: "#d2d3d5" }
+            : { backgroundColor: "transparent" }
           : { backgroundColor: "#d2d3d5" }
       }
     >
@@ -36,10 +47,10 @@ const Header = ({ siteTitle }) => {
           <div className="nexus-unique-logo-right"></div>
           <div
             className={
-              window.location.pathname !== "/contact-us"
-                ? headerAtTop
-                  ? "nexus-unique-logo-title"
-                  : "nexus-unique-logo-title-active"
+              headerAtTop
+                ? isContactUsPage
+                  ? "nexus-unique-logo-title-active"
+                  : "nexus-unique-logo-title"
                 : "nexus-unique-logo-title-active"
             }
           >
@@ -51,10 +62,10 @@ const Header = ({ siteTitle }) => {
           <Link
             to="/about"
             className={
-              window.location.pathname !== "/contact-us"
-                ? headerAtTop
-                  ? "navbar-content-link"
-                  : "navbar-content-link-active"
+              headerAtTop
+                ? isContactUsPage
+                  ? "navbar-content-link-active"
+                  : "navbar-content-link"
                 : "navbar-content-link-active"
             }
           >
@@ -62,10 +73,10 @@ const Header = ({ siteTitle }) => {
           </Link>
           <Link
             className={
-              window.location.pathname !== "/contact-us"
-                ? headerAtTop
-                  ? "navbar-content-link"
-                  : "navbar-content-link-active"
+              headerAtTop
+                ? isContactUsPage
+                  ? "navbar-content-link-active"
+                  : "navbar-content-link"
                 : "navbar-content-link-active"
             }
             to="/services"
@@ -74,10 +85,10 @@ const Header = ({ siteTitle }) => {
           </Link>
           <Link
             className={
-              window.location.pathname !== "/contact-us"
-                ? headerAtTop
-                  ? "navbar-content-link"
-                  : "navbar-content-link-active"
+              headerAtTop
+                ? isContactUsPage
+                  ? "navbar-content-link-active"
+                  : "navbar-content-link"
                 : "navbar-content-link-active"
             }
             to="/brands-we-work-with"
@@ -86,10 +97,10 @@ const Header = ({ siteTitle }) => {
           </Link>
           <Link
             className={
-              window.location.pathname !== "/contact-us"
-                ? headerAtTop
-                  ? "navbar-content-link"
-                  : "navbar-content-link-active"
+              headerAtTop
+                ? isContactUsPage
+                  ? "navbar-content-link-active"
+                  : "navbar-content-link"
                 : "navbar-content-link-active"
             }
             to="/contact-us"
