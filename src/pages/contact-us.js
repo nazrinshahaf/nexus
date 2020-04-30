@@ -12,7 +12,7 @@ const Contact = () => (
       <h1 className="contact-header-title">Contact Us</h1>
       <div className="contact-line"></div>
     </div>
-    {/* <form
+    <form
       name="nexus-contact-2"
       method="post"
       netlify-honeypot="bot-field"
@@ -76,15 +76,6 @@ const Contact = () => (
           </button>
         </div>
       </div>
-    </form> */}
-    <form
-      method="post"
-      name="test"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-    >
-      <input type="text" name="test"></input>
-      <button type="submit">send</button>
     </form>
   </Layout>
 )
