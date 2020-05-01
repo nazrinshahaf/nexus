@@ -20,6 +20,37 @@
 .contact-main-content {
   padding: 50px 150px;
 }
+.contact-main-content-alt {
+  display: flex;
+  padding: 50px 330px 10px 330px;
+  justify-content: space-between;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.contact-information {
+}
+.contact-information-alt {
+  margin: 0 0px 0 0;
+}
+.contact-information a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+.contact-information a:hover {
+  color: #f79733;
+}
+.contact-information a:focus {
+  outline: none;
+  color: #f79733;
+}
+.contact-line-2 {
+  background-color: #a26dad;
+  height: 110px;
+  width: 1px;
+  margin: 0 45px 0 0;
+}
 .contact-input-row-container {
   display: flex;
   justify-content: center;

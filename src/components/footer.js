@@ -67,7 +67,7 @@ const Footer = () => (
           >
             Suite 601, Block A, Lift Lobby 1 <br />
             Damansara Intan Business Centre <br />
-            Jalan SS20/27, 27400 Petaling jaya <br />
+            Jalan SS20/27, 27400 Petaling Jaya <br />
             Selangor Darul Ehsan, Malaysia
           </a>
         </div>

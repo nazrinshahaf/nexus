@@ -21,6 +21,13 @@ header {
   align-items: center;
   text-decoration-line: none;
 }
+.navbar-logo-container:focus {
+  outline: none;
+}
+.navbar-logo-container:focus .nexus-unique-logo-title,
+.navbar-logo-container:focus .nexus-unique-logo-title-active {
+  color: #a26dad;
+}
 .nexus-unique-logo-left {
   width: 45px;
   height: 45px;
@@ -44,10 +51,17 @@ header {
   color: black;
   font-family: "Lato", sans-serif;
   font-weight: 500;
+  transition: 0.5s;
 }
 .nexus-unique-logo-title-active {
   color: white;
 }
+
+.nexus-unique-logo-title:hover,
+.nexus-unique-logo-title-active:hover {
+  color: #a26dad;
+}
+
 .navbar-contents-container {
   display: flex;
   justify-content: space-between;
@@ -69,9 +83,15 @@ header {
 }
 
 .navbar-content-link:hover,
-.navbar-content-link-active:hover {
+.navbar-content-link-active:hover,
+.navbar-content-link:focus,
+.navbar-content-link-active:focus {
   color: #a26dad;
   text-decoration-line: none;
   border-bottom: 1px solid #a26dad;
   transition: 0.5s;
+}
+.navbar-content-link:focus,
+.navbar-content-link-active:focus {
+  outline: none;
 }
