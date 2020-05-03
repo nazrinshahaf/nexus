@@ -16,7 +16,7 @@ const Services = () => {
           <h2 className="our-services-header">Public Relations</h2>
           <div className="our-services-line"></div>
         </div>
-        <div className="about-us-main-content-paragraph">
+        <div className="our-services-main-content-paragraph">
           We examine where the organisation stands in the current landscape;
           identify and analyse the immediate and long-term goals.  Hence, it
           enables us to propose a comprehensive campaign that is effective and
