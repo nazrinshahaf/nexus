@@ -3,141 +3,42 @@
   padding: 0 150px;
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
+  justify-content: center;
   background-image: url(../images/services2.jpeg);
   background-position-y: -250px;
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
 }
 .our-services-title {
-  color: #25283d;
-  /* width: 400px; */
   font-size: 65px;
-  margin: 0 0 0 50px;
+  font-family: "Lato", sans-serif;
+}
+.our-services-header-container {
+  display: flex;
+}
+.our-services-line {
+  width: 398px;
+  height: 1px;
+  background-color: #a26dad;
+  margin: 20px 0 0 0;
 }
 .our-services-header {
+  font-size: 30px;
+  text-align: center;
+  margin: 0 20px 0 20px;
   color: #a26dad;
-  margin: 0 0 0 100px;
-  width: 500px;
-  font-size: 20px;
-  text-align: justify;
 }
 .our-services-main-content {
-  padding: 0 150px;
-  height: 450px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-.our-services-h2 {
-  margin: 0 0 40px 0px;
-  font-size: 40px;
-}
-.our-services-paragraph {
-  font-size: 25px;
-}
-.our-services-paragraph::first-letter {
-  color: purple;
-  font-size: 70px;
-}
-/* STYLE 1 */
-
-/* .our-services-card-container {
+  font-size: 20px;
   padding: 50px 150px;
-  height: 500px;
-  display: flex;
-  justify-content: space-between
-}
-.our-services-card {
-  border: 1px solid black;
-  border-radius: 4px;
-  width: 310px;
-}
-.our-services-card-title {
-  border-bottom: 1px solid black;
-} */
-/* STYLE 2 */
-
-/* .our-services-card-container {
-  padding: 50px 150px;
-  height: 650px;
-  display: flex;
-  justify-content: space-between;
-}
-.our-services-card-title-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.our-services-card-title {
-  font-size: 30px;
-  cursor: pointer;
-}
-.our-services-card-content-container {
-  width: 600px;
-} */
-/* STYLE 3 */
-
-.our-services-card-container {
-  /* background-color: #25283d; */
-  width: 100vw;
-  /* height: 500px; */
-  padding: 0px 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.our-services-card {
-  width: 600px;
-  text-align: center;
-  height: 260px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 25px;
-  font-family: "Roboto", sans-serif;
-}
-.our-services-card-active {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.our-services-card-title-container {
-  height: 60px;
-  margin: 40px 0 0 0;
-  line-height: 60px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.our-services-card-title {
-  color: white;
-}
-.our-services-card-purple {
-  background-image: url(../images/Hilary.jpg);
-  /* background-position-y: -20px; */
-  object-fit: cover;
-  background-repeat: no-repeat;
-  background-size: 450px 260px;
-}
-
-.our-services-card-orange {
-  background-image: url(../images/digital.png);
-  /* background-size: 600px 260px; */
-  background-size: 450px 260px;
-  /* background-size: contain; */
-
-  background-repeat: no-repeat;
-}
-
-.our-services-card-white {
-  background-color: #ffffff;
-}
-
-.our-services-card-list {
-  margin: 0;
-}
-.our-services-card-list li {
-  margin: 0 0 0 0;
   text-align: left;
+  display: flex;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.about-us-main-content-paragraph {
+  margin: 40px 0 0 0;
 }
