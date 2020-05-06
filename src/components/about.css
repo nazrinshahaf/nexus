@@ -52,9 +52,13 @@
 }
 .about-us-quote {
   padding: 50px;
-  font-family: "PT Serif", serif;
+  /* font-family: "PT Serif", serif; */
+  font-family: "Fira Sans", sans-serif;
   font-size: 20px;
   color: purple;
+}
+.about-us-quote-alt {
+  color: #f08e25;
 }
 .about-us-our-team-main-content {
   /* background-color: rgb(210, 211, 213); */

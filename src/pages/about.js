@@ -46,7 +46,7 @@ const About = () => (
         succesful business entity. This understanding allows us to architect and
         execute communication plans that would shape and transform public
         perception without compromising on their business objectives.
-        <div className="about-us-quote">
+        <div className="about-us-quote about-us-quote-alt">
           "This dedication infuses throughout our team and is visible in every
           aspect of our business. We recognise the distinctive needs and
           aspirations of diffrent clients and work towards metting these
