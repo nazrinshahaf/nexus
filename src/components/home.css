@@ -1,0 +1,57 @@
+.home-container {
+  height: 400px;
+  padding: 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url(../images/services2.jpeg);
+  background-position-y: -250px;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  text-align: center;
+}
+.home-title {
+  font-size: 65px;
+  font-family: "Lato", sans-serif;
+}
+.home-title-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.home-title-line {
+  width: 440px;
+  height: 1px;
+  background-color: #a26dad;
+  margin: 20px 0 0 0;
+}
+.home-our-story {
+  font-size: 30px;
+  text-align: center;
+  margin: 0 20px 0 20px;
+  color: #a26dad;
+}
+.home-main-content {
+  margin: 0px 0 0 0;
+  font-size: 20px;
+  padding: 50px 150px;
+  color: unset;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.home-main-content-paragraph {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 40px 0 0 0;
+}
+.home-quote {
+  padding: 50px;
+  /* font-family: "PT Serif", serif; */
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  color: #a26dad;
+}
+.home-quote-alt {
+  color: #f79733;
+}
