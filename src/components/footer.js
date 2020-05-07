@@ -10,7 +10,7 @@ const Footer = () => (
   <footer>
     <div className="footer-contents">
       <div className="footer-left">
-        <Link to="/">
+        <Link to="/" className="nexus-logo-anchor">
           <img src={NexusLogo} className="nexus-logo" alt="Nexus Logo"></img>
         </Link>
         <Link to="/about" className="footer-left-link">
