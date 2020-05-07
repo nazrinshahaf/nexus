@@ -106,3 +106,17 @@
   color: white;
   font-size: 20px;
 }
+@media only screen and (min-width: 1920px) {
+  .about-us-title-line {
+    width: 710px;
+    height: 1px;
+    background-color: #a26dad;
+    margin: 20px 0 0 0;
+  }
+  .about-us-our-team-container {
+    margin: 50px 0 100px 345px;
+  }
+  .about-us-our-team-container-alt {
+    margin: 50px 0 100px 590px;
+  }
+}

@@ -97,6 +97,7 @@
   transition: 0.5s;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   width: 720px;
+  background-color: white;
 }
 .contact-submit-button:hover,
 .contact-submit-button:focus {
@@ -107,3 +108,8 @@
 /* .contact-submit-button:focus {
   border: 2px solid #a26dad;
 } */
+@media only screen and (min-width: 1920px) {
+  .contact-main-content-alt {
+    padding: 50px 595px 10px 595px;
+  }
+}

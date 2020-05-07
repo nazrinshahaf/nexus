@@ -82,3 +82,14 @@
   color: white;
   font-size: 20px;
 }
+@media only screen and (min-width: 1920px) {
+  .our-services-services-container {
+    margin: 50px 0 200px 345px;
+  }
+  .our-services-services-container-alt {
+    margin: 50px 0 200px 595px;
+  }
+  .our-services-services-container-alt-2 {
+    margin: 50px 0 350px 345px;
+  }
+}
