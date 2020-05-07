@@ -45,12 +45,6 @@
   outline: none;
   color: #f79733;
 }
-.contact-line-2 {
-  background-color: #a26dad;
-  height: 110px;
-  width: 1px;
-  margin: 0 45px 0 0;
-}
 .contact-input-row-container {
   display: flex;
   justify-content: center;
@@ -105,11 +99,36 @@
   color: white;
   outline: none;
 }
-/* .contact-submit-button:focus {
-  border: 2px solid #a26dad;
-} */
-@media only screen and (min-width: 1920px) {
+
+@media only screen and (max-width: 1920px) {
   .contact-main-content-alt {
     padding: 50px 595px 10px 595px;
+  }
+  .contact-line {
+    width: 580px;
+  }
+}
+@media only screen and (max-width: 1800px) {
+  .contact-main-content-alt {
+    padding: 50px 545px 10px 545px;
+  }
+  .contact-line {
+    width: 480px;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .contact-main-content-alt {
+    padding: 50px 445px 10px 445px;
+  }
+  .contact-line {
+    width: 480px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .contact-main-content-alt {
+    padding: 50px 330px 10px 330px;
+  }
+  .contact-line {
+    width: 440px;
   }
 }

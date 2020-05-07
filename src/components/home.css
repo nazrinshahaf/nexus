@@ -55,11 +55,23 @@
 .home-quote-alt {
   color: #f79733;
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (max-width: 1920px) {
   .home-title-line {
     width: 710px;
-    height: 1px;
-    background-color: #a26dad;
-    margin: 20px 0 0 0;
+  }
+}
+@media only screen and (max-width: 1800px) {
+  .home-title-line {
+    width: 660px;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .home-title-line {
+    width: 560px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .home-title-line {
+    width: 440px;
   }
 }

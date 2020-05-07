@@ -24,7 +24,6 @@ const Contact = () => (
           Selangor Darul Ehsan, Malaysia
         </a>
       </div>
-      {/* <div className="contact-line-2"></div> */}
       <div className="contact-information contact-information-alt">
         Mail :{" "}
         <a href="mailto:info.nexusunique@gmail.com">
