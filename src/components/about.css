@@ -1,23 +1,18 @@
 .about-us-container {
-  display: flex;
   height: 400px;
-  align-items: center;
   padding: 0 150px;
-  flex-direction: column;
-  background-image: url(../images/about7.jpg);
-  background-size: 100vw 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/About_9.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
 }
 .about-us-title {
-  margin: 150px 100px 0 0;
   font-size: 65px;
   font-family: "Lato", sans-serif;
-}
-.about-us-header {
-  margin: 50px 0 0 200px;
-  font-size: 40px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 28px;
+  color: white;
 }
 .about-us-title-container {
   display: flex;

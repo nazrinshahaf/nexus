@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/services2.jpeg);
+  background-image: url(../images/Services_3.jpg);
   background-position-y: -250px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,6 +13,7 @@
 .our-services-title {
   font-size: 65px;
   font-family: "Lato", sans-serif;
+  color: white;
 }
 .our-services-header-container {
   display: flex;

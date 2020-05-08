@@ -8,16 +8,13 @@ const About = () => (
   <Layout>
     <SEO title="About Us" />
     <div className="about-us-container">
-      <h1 className="about-us-title">Nexus Unique :</h1>
-      <div className="about-us-header">
-        <div>Where ideas interconnect...</div>
-      </div>
+      <h1 className="about-us-title">Where ideas interconnect...</h1>
     </div>
     <div className="about-us-main-content about-us-our-team-main-content">
       <div>
         <div className="about-us-title-container">
           <div className="about-us-title-line about-us-our-team-line"></div>
-          <h2 className="about-us-our-story">Our Team</h2>
+          <h2 className="about-us-our-story">Our team</h2>
           <div className="about-us-title-line about-us-our-team-line"></div>
         </div>
         <div className="about-us-main-content-paragraph our-team-main-content-paragraph">

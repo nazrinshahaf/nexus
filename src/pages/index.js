@@ -16,7 +16,7 @@ const IndexPage = () => {
       <div className="home-main-content">
         <div className="home-title-container">
           <div className="home-title-line"></div>
-          <h2 className="home-our-story">Our Story</h2>
+          <h2 className="home-our-story">Our story</h2>
           <div className="home-title-line"></div>
         </div>
         <div className="home-main-content-paragraph">
@@ -24,11 +24,8 @@ const IndexPage = () => {
           Izhak & Tunku Nafishah, who collectively possess over six decades of
           experience in the communications industry, especially in offering a
           personal touch to help organisations meet their communications
-          objectives.
-          <br />
-          <br />
-          Since its establishment in 2005, Nexus Unique has advised various
-          industries, locally and abroad, in creating strategic public
+          objectives. Since its establishment in 2005, Nexus Unique has advised
+          various industries, locally and abroad, in creating strategic public
           relations, brand building and image enhancing programmes, hence
           reaping stronger brand loyalty and distinct market positioning for all
           its valued clients.

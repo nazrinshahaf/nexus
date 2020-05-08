@@ -8,12 +8,18 @@ import "./header.css"
 const Header = ({ siteTitle }) => {
   const [headerAtTop, setHeaderAtTop] = useState(true)
   const [isContactUsPage, setIsContactUsPage] = useState(false)
+  const [isBlackBackground, setIsBlackBackground] = useState(false)
 
   const path = globalHistory.location.pathname
 
   useEffect(() => {
+    setIsBlackBackground(path === "/services" || path === "/about")
+    // console.log(path, isBlackBackground)
+  }, [isBlackBackground])
+
+  useEffect(() => {
     setIsContactUsPage(path === "/contact-us")
-    console.log(path, isContactUsPage)
+    // console.log(path, isContactUsPage)
   }, [isContactUsPage])
 
   console.log(path)
@@ -48,7 +54,7 @@ const Header = ({ siteTitle }) => {
           <div
             className={
               headerAtTop
-                ? isContactUsPage
+                ? isContactUsPage || isBlackBackground
                   ? "nexus-unique-logo-title-active"
                   : "nexus-unique-logo-title"
                 : "nexus-unique-logo-title-active"
@@ -63,7 +69,7 @@ const Header = ({ siteTitle }) => {
             to="/about"
             className={
               headerAtTop
-                ? isContactUsPage
+                ? isContactUsPage || isBlackBackground
                   ? "navbar-content-link-active"
                   : "navbar-content-link"
                 : "navbar-content-link-active"
@@ -74,7 +80,7 @@ const Header = ({ siteTitle }) => {
           <Link
             className={
               headerAtTop
-                ? isContactUsPage
+                ? isContactUsPage || isBlackBackground
                   ? "navbar-content-link-active"
                   : "navbar-content-link"
                 : "navbar-content-link-active"
@@ -86,7 +92,7 @@ const Header = ({ siteTitle }) => {
           <Link
             className={
               headerAtTop
-                ? isContactUsPage
+                ? isContactUsPage || isBlackBackground
                   ? "navbar-content-link-active"
                   : "navbar-content-link"
                 : "navbar-content-link-active"
@@ -98,7 +104,7 @@ const Header = ({ siteTitle }) => {
           <Link
             className={
               headerAtTop
-                ? isContactUsPage
+                ? isContactUsPage || isBlackBackground
                   ? "navbar-content-link-active"
                   : "navbar-content-link"
                 : "navbar-content-link-active"
