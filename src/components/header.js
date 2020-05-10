@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => {
   }, [isBlackBackground])
 
   useEffect(() => {
-    setIsContactUsPage(path === "/contact-us" || "/404")
+    setIsContactUsPage(path === "/contact-us" || path === "/404")
     // console.log(path, isContactUsPage)
   }, [isContactUsPage])
 
