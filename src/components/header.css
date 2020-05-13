@@ -201,7 +201,8 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    height: calc(100vh - 180px);
+    align-items: center;
+    height: calc(100vh - 120px);
   }
   .navbar-contents-sidebar-link a {
     color: white;
@@ -211,8 +212,8 @@ header {
     font-size: 20px;
   }
   .navbar-contents-sidebar-underline {
-    background-color: black;
-    height: 10px;
-    width: 100px;
+    background-color: white;
+    height: 1px;
+    width: 250px;
   }
 }

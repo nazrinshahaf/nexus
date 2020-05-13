@@ -157,9 +157,13 @@ const Header = ({ siteTitle }) => {
         {navbarSidePanel ? (
           <div className="navbar-contents-sidebar-link">
             <Link to="/about">About us</Link>
+            <div className="navbar-contents-sidebar-underline"></div>
             <Link to="/services">Our Services</Link>
+            <div className="navbar-contents-sidebar-underline"></div>
             <Link to="/brands-we-work-with">Brands We Work With</Link>
+            <div className="navbar-contents-sidebar-underline"></div>
             <Link to="/contact-us">Contact us</Link>
+            <div className="navbar-contents-sidebar-underline"></div>
           </div>
         ) : (
           <></>
