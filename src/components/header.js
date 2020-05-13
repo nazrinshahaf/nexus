@@ -9,6 +9,7 @@ const Header = ({ siteTitle }) => {
   const [headerAtTop, setHeaderAtTop] = useState(true)
   const [isContactUsPage, setIsContactUsPage] = useState(false)
   const [isBlackBackground, setIsBlackBackground] = useState(false)
+  const [navbarSidePanel, setNavbarSidePanel] = useState(false)
 
   const path = globalHistory.location.pathname
 
@@ -23,6 +24,7 @@ const Header = ({ siteTitle }) => {
   }, [isContactUsPage])
 
   console.log(path)
+
   useEffect(() => {
     const handleScrollY = () => {
       setHeaderAtTop(window.scrollY < 40)
@@ -36,11 +38,16 @@ const Header = ({ siteTitle }) => {
   //   setHeaderAtTop(window.scrollY < 40)
   // })
 
+  const toggleNavbar = () => {
+    setNavbarSidePanel(!navbarSidePanel)
+  }
+  console.log(navbarSidePanel)
+
   return (
     <header
       style={
         headerAtTop
-          ? isContactUsPage
+          ? isContactUsPage || navbarSidePanel
             ? { backgroundColor: "#d2d3d5" }
             : { backgroundColor: "transparent" }
           : { backgroundColor: "#d2d3d5" }
@@ -114,6 +121,49 @@ const Header = ({ siteTitle }) => {
             <div>Contact us</div>
           </Link>
         </div>
+        <div
+          onClick={toggleNavbar}
+          className={
+            navbarSidePanel
+              ? "navbar-contents-hamburger-sidepanel-active"
+              : headerAtTop
+              ? "navbar-contents-hamburger"
+              : "navbar-contents-hamburger-active"
+          }
+        >
+          <div
+            className={
+              navbarSidePanel
+                ? "navbar-contents-burger-active"
+                : "navbar-contents-burger"
+            }
+          ></div>
+          <div
+            className={
+              navbarSidePanel
+                ? "navbar-contents-burger-active navbar-contents-burger-active-alt"
+                : "navbar-contents-burger"
+            }
+          ></div>
+        </div>
+      </div>
+      <div
+        className={
+          navbarSidePanel
+            ? "navbar-contents-popup"
+            : "navbar-contents-popup-hidden"
+        }
+      >
+        {navbarSidePanel ? (
+          <div className="navbar-contents-sidebar-link">
+            <Link to="/about">About us</Link>
+            <Link to="/services">Our Services</Link>
+            <Link to="/brands-we-work-with">Brands We Work With</Link>
+            <Link to="/contact-us">Contact us</Link>
+          </div>
+        ) : (
+          <></>
+        )}
       </div>
     </header>
   )
