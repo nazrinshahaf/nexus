@@ -75,3 +75,36 @@
     width: 440px;
   }
 }
+@media only screen and (max-width: 479px) {
+  .home-container {
+    height: 150px;
+    padding: 30px 0px 0px 0;
+  }
+  .home-main-content {
+    font-size: 18px;
+    padding: 50px 20px;
+  }
+  .home-title-line {
+    width: 130px;
+  }
+  .home-quote {
+    padding: 20px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .home-title-line {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .home-title-line {
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .home-title-line {
+    width: 50px;
+  }
+}
