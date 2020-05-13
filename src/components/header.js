@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => {
     // console.log(path, isContactUsPage)
   }, [isContactUsPage])
 
-  console.log(path)
+  // console.log(path)
 
   useEffect(() => {
     const handleScrollY = () => {
@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => {
   const toggleNavbar = () => {
     setNavbarSidePanel(!navbarSidePanel)
   }
-  console.log(navbarSidePanel)
+  // console.log(navbarSidePanel)
 
   return (
     <header

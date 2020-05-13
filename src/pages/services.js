@@ -9,7 +9,7 @@ const Services = () => {
       <div className="our-services-container">
         <h1 className="our-services-title">Our Services</h1>
       </div>
-      <div className="our-services-services-container">
+      <div className="our-services-services-container our-services-services-container-medium">
         INSERT IMAGE HERE
         <div className="our-services-paragraph-container">
           <div className="our-services-title-container">Public Relations</div>
@@ -44,7 +44,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="our-services-services-container our-services-services-container-alt-2">
+      <div className="our-services-services-container our-services-services-container-alt-2 our-services-services-container-long">
         INSERT IMAGE HERE
         <div className="our-services-paragraph-container">
           <div className="our-services-title-container">
