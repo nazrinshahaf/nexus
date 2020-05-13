@@ -114,3 +114,35 @@ footer {
   color: #f79733;
   outline: none;
 }
+@media only screen and (max-width: 479px) {
+  footer {
+    height: 820px;
+    padding: 30px 20px;
+  }
+  .footer-contents {
+    flex-direction: column;
+  }
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    width: auto;
+    text-align: center;
+  }
+  .footer-contact-info {
+    margin: 50px 0 50px 0;
+  }
+  .contact-phone,
+  .contact-email,
+  .footer-address {
+    text-align: center;
+  }
+  .footer-contact-details {
+    text-align: center;
+    margin: 0 0 8px 0;
+  }
+  .footer-address-content {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
