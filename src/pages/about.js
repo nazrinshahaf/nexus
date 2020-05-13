@@ -10,21 +10,21 @@ const About = () => (
     <div className="about-us-container">
       <h1 className="about-us-title">Where ideas interconnect...</h1>
     </div>
-    <div className="about-us-main-content about-us-our-team-main-content">
+    <div className="about-us-main-content">
       <div>
         <div className="about-us-title-container">
           <div className="about-us-title-line about-us-our-team-line"></div>
           <h2 className="about-us-our-story">Our team</h2>
           <div className="about-us-title-line about-us-our-team-line"></div>
         </div>
-        <div className="about-us-main-content-paragraph our-team-main-content-paragraph">
+        <div className="about-us-main-content-paragraph">
           Our team has extensive experience in the areas of communications
           including marketing communications, digital marketing, crisis
           communications and training. We also work with high-profile
           individuals to help us achieve our clients’ strategic Public Relations
           and marketing objectives across a broad range of interests.
         </div>
-        <div className="about-us-main-content-paragraph our-team-main-content-paragraph">
+        <div className="about-us-main-content-paragraph">
           The agency is further supported by a comprehensive network of
           talents from diverse backgrounds, experts with proven capabilities in
           delivering successes in their specific discipline and specialisation.
