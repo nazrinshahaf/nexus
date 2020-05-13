@@ -12,8 +12,13 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import Footer from "./footer"
 import "./layout.css"
+import Helmet from "react-helmet"
+import favicon from "../images/NexusIcon3.png"
 
 const Layout = ({ children }) => {
+  ;<Helmet>
+    <link rel="icon" href={favicon} />
+  </Helmet>
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
