@@ -4,12 +4,13 @@
   justify-content: center;
   align-items: center;
   padding: 0 150px;
-  background-image: url(../images//Brands-background.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/Brands-background.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
   background-position-y: -150px;
 }
 .brands-header-title {
+  color: white;
   font-size: 65px;
   font-family: "Lato", sans-serif;
   margin: 0 0 0 0;
@@ -64,6 +65,7 @@
     height: 150px;
     padding: 30px 30px 0px 30px;
     text-align: center;
+    background-repeat: no-repeat;
   }
   .brands-header-title {
     font-size: 32px;
@@ -199,6 +201,13 @@
   }
 }
 
+@media only screen and (max-width: 425px) {
+  .brands-header-container {
+    background-size: cover;
+    background-repeat: repeat;
+    background-position-y: 1px;
+  }
+}
 @media only screen and (max-width: 375px) {
   .MATRADE {
     margin: 0 0 30px 0;

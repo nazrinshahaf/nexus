@@ -14,7 +14,11 @@ const Header = ({ siteTitle }) => {
   const path = globalHistory.location.pathname
 
   useEffect(() => {
-    setIsBlackBackground(path === "/services" || path === "/about")
+    setIsBlackBackground(
+      path === "/services" ||
+        path === "/about" ||
+        path === "/brands-we-work-with"
+    )
     // console.log(path, isBlackBackground)
   }, [isBlackBackground])
 
