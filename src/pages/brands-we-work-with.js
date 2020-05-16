@@ -47,12 +47,14 @@ const BrandsWeWorkWith = () => (
       <div className="brands-image-container">
         <img
           src={YYP}
+          alt="Yayasan Peneraju Pendidikan Bumiputera"
           className="brands-image"
           width="180px"
           height="180px"
         ></img>
         <img
           src={YYAF}
+          alt="Yayasan Albukhary Foundation"
           className="brands-image"
           width="180px"
           height="180px"
@@ -66,6 +68,7 @@ const BrandsWeWorkWith = () => (
       <div className="brands-image-container">
         <img
           src={MEDPRI}
+          alt="Media Prima"
           className="brands-image"
           width="200px"
           height="120px"
@@ -75,15 +78,22 @@ const BrandsWeWorkWith = () => (
     <div className="brands-main-content">
       <div className="brands-container-title">Property</div>
       <div className="brands-image-container">
-        <img src={UNI} className="brands-image" height="120px"></img>
+        <img
+          src={UNI}
+          alt="Union Investment"
+          className="brands-image"
+          height="120px"
+        ></img>
         <img
           src={UDAHB}
+          alt="UDA Holdings Berhad"
           className="brands-image"
           height="120px"
           width="250px"
         ></img>
         <img
           src={SHL}
+          alt="SHL"
           className="brands-image"
           width="120px"
           height="120px"
@@ -97,12 +107,14 @@ const BrandsWeWorkWith = () => (
       <div className="brands-image-container">
         <img
           src={MERTR}
+          alt="Merchantrade"
           className="brands-image"
           width="300px"
           height="150px"
         ></img>
         <img
           src={MAMSB}
+          alt="MAMSB"
           className="brands-image"
           height="150px"
           width="250px"
@@ -114,6 +126,7 @@ const BrandsWeWorkWith = () => (
       <div className="brands-image-container">
         <img
           src={ASIAIR}
+          alt="ASI Air Simpanan SDN BHD"
           className="brands-image"
           width="360px"
           height="180px"
@@ -127,6 +140,7 @@ const BrandsWeWorkWith = () => (
       <div className="brands-image-container">
         <img
           src={DGHAL}
+          alt="Dagang Halal"
           className="brands-image"
           width="320px"
           height="140px"
@@ -137,22 +151,25 @@ const BrandsWeWorkWith = () => (
     <div className="brands-main-content">
       <div className="brands-container-title">TELCO, IT & SI</div>
       <div className="brands-image-container">
-        <img src={SAPURA} className="brands-image"></img>
+        <img src={SAPURA} alt="Sapura" className="brands-image"></img>
         <img
           src={HEITECH}
+          alt="Heitech"
           className="brands-image"
           width="280px"
           height="280px"
         ></img>
-        <img src={ARIES} className="brands-image"></img>
+        <img src={ARIES} alt="Aries Telecoms" className="brands-image"></img>
         <img
           src={DIMDATA}
+          alt="Dimenstion Data"
           className="brands-image"
           width="360px"
           height="240px"
         ></img>
         <img
           src={WATAN}
+          alt="Wataniya"
           className="brands-image"
           width="480px"
           height="180px"
@@ -160,18 +177,21 @@ const BrandsWeWorkWith = () => (
         ></img>
         <img
           src={VTELE}
+          alt="V Telecoms Malaysia"
           className="brands-image"
           width="480px"
           height="240px"
         ></img>
         <img
           src={JARING}
+          alt="Jaring"
           className="brands-image"
           width="360px"
           height="180px"
         ></img>
         <img
           src={SLMFN}
+          alt="Salamfone"
           className="brands-image"
           width="500px"
           height="120px"
@@ -183,9 +203,15 @@ const BrandsWeWorkWith = () => (
         MNCs
       </div>
       <div className="brands-image-container">
-        <img src={ISLIM} className="brands-image" width="360px"></img>
+        <img
+          src={ISLIM}
+          alt="Islamic Liquidity Management"
+          className="brands-image"
+          width="360px"
+        ></img>
         <img
           src={SCHIN}
+          alt="Schindler"
           className="brands-image"
           width="165px"
           height="130px"
@@ -197,6 +223,7 @@ const BrandsWeWorkWith = () => (
       <div className="brands-image-container">
         <img
           src={SPANCO}
+          alt="Spanco"
           className="brands-image"
           width="400px"
           height="110px"
@@ -210,6 +237,7 @@ const BrandsWeWorkWith = () => (
       <div className="brands-image-container">
         <img
           src={NEWPAR}
+          alt="New Paradigm"
           className="brands-image"
           width="400px"
           height="110px"
@@ -221,6 +249,7 @@ const BrandsWeWorkWith = () => (
       <div className="brands-image-container">
         <img
           src={NEWPAR}
+          alt="New Paradigm"
           className="brands-image"
           width="400px"
           height="110px"
@@ -232,7 +261,7 @@ const BrandsWeWorkWith = () => (
         Council
       </div>
       <div className="brands-image-container">
-        <img src={MPOC} className="brands-image"></img>
+        <img src={MPOC} alt="MPOC" className="brands-image"></img>
       </div>
     </div>
     <div className="brands-main-content">
@@ -240,36 +269,42 @@ const BrandsWeWorkWith = () => (
       <div className="brands-image-container">
         <img
           src={UEM}
+          alt="UEM"
           className="brands-image"
           width="205px"
           height="115px"
         ></img>
         <img
           src={MATRADE}
+          alt="MATRADE"
           className="brands-image"
           width="250px"
           height="125px"
         ></img>
         <img
           src={UDAHB}
+          alt="UDA HOLDINGS BERHAD"
           className="brands-image"
           width="250px"
           height="120px"
         ></img>
         <img
           src={MOE}
+          alt="Ministry of Education Malaysia"
           className="brands-image"
           width="200px"
           height="125px"
         ></img>
         <img
           src={SELANG}
+          alt="Selangor"
           className="brands-image"
           width="180px"
           height="220px"
         ></img>
         <img
           src={CGC}
+          alt="CGC"
           className="brands-image"
           width="200px"
           height="120px"
@@ -277,6 +312,7 @@ const BrandsWeWorkWith = () => (
         ></img>
         <img
           src={INVSELANG}
+          alt="Invest Selangor"
           className="brands-image"
           width="220px"
           height="120px"
@@ -284,6 +320,7 @@ const BrandsWeWorkWith = () => (
         ></img>
         <img
           src={MBI}
+          alt="Menteri Besar Incorperated"
           className="brands-image"
           width="220px"
           height="120px"
@@ -291,6 +328,7 @@ const BrandsWeWorkWith = () => (
         ></img>
         <img
           src={MTDC}
+          alt="MTDC"
           className="brands-image"
           width="250px"
           height="120px"

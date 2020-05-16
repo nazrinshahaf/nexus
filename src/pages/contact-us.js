@@ -17,6 +17,7 @@ const Contact = () => (
         <a
           href="https://www.google.com/maps/place/Nexus+Unique/@3.1300159,101.6271844,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc4947ab42df71:0x8fb1aaf9473056c0!8m2!3d3.1300159!4d101.6293731"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Suite 601, Block A, Lift Lobby 1 <br />
           Damansara Intan Business Centre <br />
