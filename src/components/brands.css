@@ -39,43 +39,7 @@
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 1920px) {
-  /* .about-us-title-line {
-    width: 710px;
-  }
-  .about-us-our-team-container {
-    margin: 50px 0 100px 345px;
-  }
-  .about-us-our-team-container-alt {
-    margin: 50px 0 100px 590px;
-  } */
-}
-@media only screen and (max-width: 1800px) {
-  /* .about-us-title-line {
-    width: 660px;
-  } */
-}
-@media only screen and (max-width: 1600px) {
-  /* .about-us-title-line {
-    width: 560px;
-  }
-  .about-us-our-team-container {
-    margin: 50px 0 100px 245px;
-  }
-  .about-us-our-team-container-alt {
-    margin: 50px 0 100px 490px;
-  } */
-}
 @media only screen and (max-width: 1366px) {
-  /* .about-us-title-line {
-    width: 440px;
-  }
-  .about-us-our-team-container {
-    margin: 50px 0 100px 145px;
-  }
-  .about-us-our-team-container-alt {
-    margin: 50px 0 100px 315px;
-  } */
   .ARIES {
     margin: 40px 0 0 0;
   }
@@ -235,8 +199,6 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
-}
 @media only screen and (max-width: 375px) {
   .MATRADE {
     margin: 0 0 30px 0;
