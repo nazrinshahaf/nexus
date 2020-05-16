@@ -144,7 +144,6 @@ const BrandsWeWorkWith = () => (
           className="DGHAL"
           width="320px"
           height="140px"
-          // style={{ marginTop: "20px" }}
         ></img>
       </div>
     </div>
@@ -179,7 +178,6 @@ const BrandsWeWorkWith = () => (
           className="WATAN"
           width="480px"
           height="180px"
-          // style={{ marginTop: "20px" }}
         ></img>
         <img
           src={VTELE}
@@ -314,7 +312,6 @@ const BrandsWeWorkWith = () => (
           className="CGC"
           width="200px"
           height="120px"
-          // style={{ margin: "50px 0 0 0" }}
         ></img>
         <img
           src={INVSELANG}
@@ -322,7 +319,6 @@ const BrandsWeWorkWith = () => (
           className="INVSELANG"
           width="220px"
           height="120px"
-          // style={{ margin: "50px 0 0 0" }}
         ></img>
         <img
           src={MBI}
@@ -330,7 +326,6 @@ const BrandsWeWorkWith = () => (
           className="MBI"
           width="220px"
           height="120px"
-          // style={{ margin: "50px 0 0 0" }}
         ></img>
         <img
           src={MTDC}
