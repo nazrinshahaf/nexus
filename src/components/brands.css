@@ -34,3 +34,223 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 1920px) {
+  /* .about-us-title-line {
+    width: 710px;
+  }
+  .about-us-our-team-container {
+    margin: 50px 0 100px 345px;
+  }
+  .about-us-our-team-container-alt {
+    margin: 50px 0 100px 590px;
+  } */
+}
+@media only screen and (max-width: 1800px) {
+  /* .about-us-title-line {
+    width: 660px;
+  } */
+}
+@media only screen and (max-width: 1600px) {
+  /* .about-us-title-line {
+    width: 560px;
+  }
+  .about-us-our-team-container {
+    margin: 50px 0 100px 245px;
+  }
+  .about-us-our-team-container-alt {
+    margin: 50px 0 100px 490px;
+  } */
+}
+@media only screen and (max-width: 1366px) {
+  /* .about-us-title-line {
+    width: 440px;
+  }
+  .about-us-our-team-container {
+    margin: 50px 0 100px 145px;
+  }
+  .about-us-our-team-container-alt {
+    margin: 50px 0 100px 315px;
+  } */
+  .ARIES {
+    margin: 40px 0 0 0;
+  }
+  .DGHAL {
+    margin: 20px 0 0 0;
+  }
+  .WATAN {
+    margin: 20px 0 0 0;
+  }
+  .CGC {
+    margin: 50px 0 0 0;
+  }
+  .INVSELANG {
+    margin: 50px 0 0 0;
+  }
+  .MBI {
+    margin: 50px 0 0 0;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .brands-header-container {
+    height: 150px;
+    padding: 30px 30px 0px 30px;
+    text-align: center;
+  }
+  .brands-header-title {
+    font-size: 32px;
+  }
+  .brands-main-content {
+    padding: 50px 20px;
+  }
+  .brands-container-title {
+    font-size: 25px;
+  }
+  .YYP {
+    width: 120px;
+    height: 120px;
+  }
+  .YYAF {
+    width: 120px;
+    height: 120px;
+  }
+  .UNI {
+    height: 80px;
+  }
+  .UDAHB {
+    height: 110px;
+    width: 220px;
+  }
+  .SHL {
+    width: 100px;
+    height: 100px;
+  }
+  .MERTR {
+    width: 170px;
+    height: 85px;
+  }
+  .MAMSB {
+    height: 100px;
+    width: 100px;
+  }
+  .ASIAIR {
+    width: 260px;
+    height: 130px;
+  }
+  .DGHAL {
+    width: 280px;
+    height: 110px;
+  }
+  .SAPURA {
+    width: 250px;
+    height: 83px;
+  }
+  .HEITECH {
+    width: 190px;
+    height: 190px;
+  }
+  .ARIES {
+    margin: 20px 0 0 0;
+    width: 180px;
+    height: 130px;
+  }
+  .DIMDATA {
+    width: 240px;
+    height: 160px;
+  }
+  .WATAN {
+    width: 290px;
+    height: 110px;
+  }
+  .VTELE {
+    width: 380px;
+    height: 180px;
+  }
+  .JARING {
+    width: 290px;
+    height: 120px;
+  }
+  .SLMFN {
+    margin: 30px 0 0 0;
+    width: 320px;
+    height: 90px;
+  }
+  .ISLIM {
+    margin: 20px 0 0 0;
+    width: 240px;
+    height: 90px;
+  }
+  .SPANCO {
+    width: 360px;
+    height: 110px;
+  }
+  .NEWPAR {
+    width: 340px;
+    height: 90px;
+  }
+  .MPOC {
+    width: 160px;
+    height: 140px;
+  }
+  .UEM {
+    width: 205px;
+    height: 115px;
+  }
+  .MATRADE {
+    margin: 20px 0 0 0;
+    width: 180px;
+    height: 83px;
+  }
+  .MOE {
+    width: 150px;
+    height: 115px;
+  }
+  .SELANG {
+    width: 150px;
+    height: 180px;
+  }
+  .CGC {
+    margin: 40px 0 0 0;
+    width: 180px;
+    height: 90px;
+  }
+  .INVSELANG {
+    margin: 30px 0 0 0;
+    width: 220px;
+    height: 90px;
+  }
+  .MBI {
+    margin: 30px 50px 0 0;
+    width: 220px;
+    height: 120px;
+  }
+  .MTDC {
+    margin: 30px 0 0 0;
+    width: 180px;
+    height: 90px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+}
+@media only screen and (max-width: 375px) {
+  .MATRADE {
+    margin: 0 0 30px 0;
+  }
+  .SELANG {
+    width: 130px;
+    height: 150px;
+  }
+  .CGC {
+    margin: ;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .MERTR {
+    width: 190px;
+    height: 85px;
+  }
+  .SELANG {
+    margin: 0 0 0 20px;
+  }
+}
