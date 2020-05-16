@@ -58,6 +58,34 @@
 .our-services-services-container-alt-2 {
   margin: 50px 0 350px 145px;
 }
+.our-services-services-container-public-relations {
+  background-image: url(../images//Public-relations.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.our-services-services-container-marketing-communications {
+  background-image: url(../images//Marketing-communications.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -50px;
+}
+.our-services-services-container-crisis-communication {
+  background-image: url(../images/crisis-communications.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -120px;
+}
+.our-services-services-container-digital-pr {
+  background-image: url(../images/Digital-PR.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -210px;
+}
+.our-services-services-container-event-management {
+  background-image: url(../images/Event-management.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .our-services-paragraph-container {
   position: absolute;
   background-color: #a26dad;
@@ -71,8 +99,9 @@
   background-color: #f79733;
 }
 .our-services-paragraph-container-alt-2 {
-  margin-top: 350px;
+  margin-top: 440px;
 }
+
 .our-services-title-container {
   font-family: "Lato", sans-serif;
   font-size: 32px;

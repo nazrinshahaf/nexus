@@ -9,8 +9,7 @@ const Services = () => {
       <div className="our-services-container">
         <h1 className="our-services-title">Our Services</h1>
       </div>
-      <div className="our-services-services-container our-services-services-container-medium">
-        INSERT IMAGE HERE
+      <div className="our-services-services-container our-services-services-container-medium our-services-services-container-public-relations">
         <div className="our-services-paragraph-container">
           <div className="our-services-title-container">Public Relations</div>
           <div className="our-services-paragraph">
@@ -30,8 +29,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="our-services-services-container our-services-services-container-alt">
-        INSERT IMAGE HERE
+      <div className="our-services-services-container our-services-services-container-alt our-services-services-container-marketing-communications">
         <div className="our-services-paragraph-container our-services-paragraph-container-alt">
           <div className="our-services-title-container">
             Marketing Communications
@@ -44,8 +42,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="our-services-services-container our-services-services-container-alt-2 our-services-services-container-long">
-        INSERT IMAGE HERE
+      <div className="our-services-services-container our-services-services-container-alt-2 our-services-services-container-long our-services-services-container-crisis-communication">
         <div className="our-services-paragraph-container">
           <div className="our-services-title-container">
             Crisis Communication
@@ -72,8 +69,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="our-services-services-container our-services-services-container-alt">
-        INSERT IMAGE HERE
+      <div className="our-services-services-container our-services-services-container-alt our-services-services-container-digital-pr">
         <div className="our-services-paragraph-container our-services-paragraph-container-alt">
           <div className="our-services-title-container">Digital PR</div>
           <div className="our-services-paragraph">
@@ -84,8 +80,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="our-services-services-container">
-        INSERT IMAGE HERE
+      <div className="our-services-services-container our-services-services-container-event-management ">
         <div className="our-services-paragraph-container our-services-paragraph-container-alt-2">
           <div className="our-services-title-container">Event Management</div>
           <div className="our-services-paragraph">

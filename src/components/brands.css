@@ -4,6 +4,10 @@
   justify-content: center;
   align-items: center;
   padding: 0 150px;
+  background-image: url(../images//Brands-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -200px;
 }
 .brands-header-title {
   font-size: 65px;
