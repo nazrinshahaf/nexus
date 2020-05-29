@@ -10,14 +10,9 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <div className="home-container">
-        <h1 className="home-title">???</h1>
+        <h1 className="home-title">Our Story</h1>
       </div>
       <div className="home-main-content">
-        <div className="home-title-container">
-          <div className="home-title-line"></div>
-          <h2 className="home-our-story">Our story</h2>
-          <div className="home-title-line"></div>
-        </div>
         <div className="home-main-content-paragraph">
           Nexus Unique Sdn Bhd was inspired by two like-minded partners, Izjulia
           Izhak & Tunku Nafishah, who collectively possess over six decades of
