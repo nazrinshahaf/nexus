@@ -17,6 +17,9 @@
   height: 1px;
   background-color: #a26dad;
 }
+form {
+  margin: 0;
+}
 .contact-main-content {
   padding: 50px 150px;
 }
