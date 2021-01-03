@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Nexus Unique`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Nexus Unique is a Public Relations consulting agency specialises in building,enhancing and strengthening reputation of corporations and organisations, including individuals via an integrated communications campaign.
+    `,
     author: `@gatsbyjs`,
   },
   plugins: [
