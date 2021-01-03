@@ -226,3 +226,12 @@
     margin: 0 0 0 20px;
   }
 }
+.brands-main-content-alt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.brands-main-content-alt img{
+  margin: 30px 0;
+}
