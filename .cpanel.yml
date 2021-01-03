@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/nexusuni/public_html
-    - /bin/cp -R /home/nexusuni/repositories/nexus/* $DEPLOYPATH
+    - /bin/cp -R /home/nexusuni/repositories/nexus/public/* $DEPLOYPATH
