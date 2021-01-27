@@ -4,6 +4,10 @@ import SEO from "../components/seo"
 
 import "../components/about.css"
 
+import Izjulia_Izhak from "../images/Julia-Izhak.jpeg"
+import Tunku_Nafishah from "../images/Tunku-Nafishah.jpeg"
+import Azizul_Khair from "../images/Azizul_Khair.jpeg"
+
 const About = () => (
   <Layout>
     <SEO title="About Us" />
@@ -34,7 +38,9 @@ const About = () => (
       </div>
     </div>
     <div className="about-us-our-team-container">
-      <div className="about-us-our-team-image-container"></div>
+      <div className="about-us-our-team-image-container">
+        <img src={Izjulia_Izhak} alt="Izjuilia Izhak"></img>
+      </div>
       <h3 className="about-us-our-team-names">Izjulia Ishak</h3>
       <div className="about-us-our-team-occupation">
         Chief Strategic Officer
@@ -68,7 +74,9 @@ const About = () => (
       </div>
     </div>
     <div className="about-us-our-team-container about-us-our-team-container-alt">
-      <div className="about-us-our-team-image-container about-us-our-team-image-container-alt"></div>
+      <div className="about-us-our-team-image-container about-us-our-team-image-container-alt">
+        <img src={Tunku_Nafishah} alt="Tunku Nafishah"></img>
+      </div>
       <h3 className="about-us-our-team-names">
         Tunku Nafishah Tunku Muinuddin
       </h3>
@@ -98,7 +106,9 @@ const About = () => (
       </div>
     </div>
     <div className="about-us-our-team-container">
-      <div className="about-us-our-team-image-container about-us-our-team-image-container-alt2 "></div>
+      <div className="about-us-our-team-image-container about-us-our-team-image-container-alt2 ">
+        <img src={Azizul_Khair} alt="Azizul Khair"></img>
+      </div>
       <h3 className="about-us-our-team-names">Azizul Khair Mohd Ibrahim</h3>
       <div className="about-us-our-team-occupation">Associate PR Director</div>
       <div className="about-us-main-content-paragraph our-team-main-description">
