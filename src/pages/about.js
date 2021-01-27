@@ -34,7 +34,7 @@ const About = () => (
       </div>
     </div>
     <div className="about-us-our-team-container">
-      <div className="about-us-our-team-image-container">INSERT IMAGE HERE</div>
+      <div className="about-us-our-team-image-container"></div>
       <h3 className="about-us-our-team-names">Izjulia Ishak</h3>
       <div className="about-us-our-team-occupation">
         Chief Strategic Officer
@@ -68,9 +68,7 @@ const About = () => (
       </div>
     </div>
     <div className="about-us-our-team-container about-us-our-team-container-alt">
-      <div className="about-us-our-team-image-container about-us-our-team-image-container-alt">
-        INSERT IMAGE HERE
-      </div>
+      <div className="about-us-our-team-image-container about-us-our-team-image-container-alt"></div>
       <h3 className="about-us-our-team-names">
         Tunku Nafishah Tunku Muinuddin
       </h3>
@@ -100,9 +98,7 @@ const About = () => (
       </div>
     </div>
     <div className="about-us-our-team-container">
-      <div className="about-us-our-team-image-container about-us-our-team-image-container-alt2 ">
-        INSERT IMAGE HERE
-      </div>
+      <div className="about-us-our-team-image-container about-us-our-team-image-container-alt2 "></div>
       <h3 className="about-us-our-team-names">Azizul Khair Mohd Ibrahim</h3>
       <div className="about-us-our-team-occupation">Associate PR Director</div>
       <div className="about-us-main-content-paragraph our-team-main-description">
