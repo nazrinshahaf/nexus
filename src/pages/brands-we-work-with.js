@@ -394,8 +394,8 @@ const BrandsWeWorkWith = () => (
         src={INVSELANG}
         alt="Invest Selangor"
         className="INVSELANG"
-        width="320px"
-        height="170px"
+        width="308px"
+        height="126px"
       ></img>
       <img
         src={ISLIM}
@@ -484,8 +484,8 @@ const BrandsWeWorkWith = () => (
       ></img>
       <img
         src={UEMSUNRISE}
-        alt="UEMSUNRISE"
-        className="UEM Sunrise"
+        alt="UEM Sunrise"
+        className="UEMSUNRISE"
         width="259px"
       ></img>
       <img src={UNI} alt="Union Investment" className="UNI" width="400px"></img>

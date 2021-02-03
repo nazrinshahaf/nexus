@@ -76,69 +76,74 @@
   .brands-container-title {
     font-size: 25px;
   }
-  .YYP {
-    width: 120px;
-    height: 120px;
-  }
-  .YYAF {
-    width: 120px;
-    height: 120px;
-  }
-  .UNI {
+  .ANTAH{
+    width: 175px;
     height: 80px;
   }
+  .YYP {
+    width: 100px;
+    height: 100px;
+  }
+  .YYAF {
+    width: 90px;
+    height: 90px;
+  }
+  .UNI {
+    width: 200px;
+  }
   .UDAHB {
-    height: 110px;
-    width: 220px;
+    height: 72px;
+    width: 168px;
   }
   .SHL {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
   .MERTR {
-    width: 170px;
-    height: 85px;
+    width: 150px;
+    height: 75px;
   }
   .MAMSB {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 80px;
   }
   .ASIAIR {
-    width: 260px;
-    height: 130px;
+    width: 180px;
+    height: 90px;
   }
   .DGHAL {
-    width: 280px;
-    height: 110px;
+    width: 160px;
+    height: 70px;
   }
   .SAPURA {
-    width: 250px;
-    height: 83px;
+    width: 162px; 
   }
   .HEITECH {
-    width: 190px;
-    height: 190px;
+    width: 75px;
+    height: 75px;
   }
   .ARIES {
-    margin: 20px 0 0 0;
-    width: 180px;
-    height: 130px;
+    width: 115px;
+    height: 90px;
   }
   .DIMDATA {
-    width: 240px;
-    height: 160px;
+    width: 180px;
+    height: 120px;
+  }
+  .GREENACRES {
+    width: 175px;
+    height: 75px;
   }
   .WATAN {
     width: 290px;
     height: 110px;
   }
   .VTELE {
-    width: 380px;
-    height: 180px;
+    width: 209px;
   }
   .JARING {
-    width: 290px;
-    height: 120px;
+    width: 180px;
+    height: 75px;
   }
   .SLMFN {
     margin: 30px 0 0 0;
@@ -146,30 +151,33 @@
     height: 90px;
   }
   .ISLIM {
-    margin: 20px 0 0 0;
-    width: 240px;
-    height: 90px;
+    width: 180px;
   }
   .SPANCO {
-    width: 360px;
-    height: 110px;
+    width: 240px;
+    height: 66px;
   }
   .NEWPAR {
-    width: 340px;
-    height: 90px;
+    width: 240px;
+    height: 66px;
   }
   .MPOC {
-    width: 160px;
-    height: 140px;
+    width: 120px;
   }
   .UEM {
-    width: 205px;
-    height: 115px;
+    width: 144px;
+    height: 80px;
+  }
+  .UEMSUNRISE{
+    width: 155px;
   }
   .MATRADE {
-    margin: 20px 0 0 0;
-    width: 180px;
-    height: 83px;
+    width: 125px;
+    height: 63px;
+  }
+  .MEDPRI {
+    width: 144px;
+    height: 84px;
   }
   .MOE {
     width: 150px;
@@ -185,9 +193,8 @@
     height: 90px;
   }
   .INVSELANG {
-    margin: 30px 0 0 0;
-    width: 220px;
-    height: 90px;
+    width: 176px;
+    height: 72px;
   }
   .MBI {
     margin: 30px 50px 0 0;
@@ -195,9 +202,8 @@
     height: 120px;
   }
   .MTDC {
-    margin: 30px 0 0 0;
-    width: 180px;
-    height: 90px;
+    width: 125px;
+    height: 60px;
   }
 }
 
@@ -218,13 +224,6 @@
   }
 }
 @media only screen and (max-width: 320px) {
-  .MERTR {
-    width: 190px;
-    height: 85px;
-  }
-  .SELANG {
-    margin: 0 0 0 20px;
-  }
 }
 .brands-main-content-alt{
   display: flex;
