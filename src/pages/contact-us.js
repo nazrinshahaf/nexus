@@ -44,6 +44,8 @@ const Contact = () => (
       method="post"
       netlify-honeypot="bot-field"
       data-netlify="true"
+      action="https://getform.io/f/71e5e861-1413-4da6-8962-59c801ccaf65"
+      autoComplete="on"
     >
       <input type="hidden" name="form-name" value="contact" />
       <div className="contact-main-content">
