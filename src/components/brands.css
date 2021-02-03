@@ -15,51 +15,6 @@
   font-family: "Lato", sans-serif;
   margin: 0 0 0 0;
 }
-.brands-main-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0px 0 0 0;
-  font-size: 20px;
-  padding: 50px 150px;
-}
-.brands-container-title {
-  font-size: 35px;
-  margin: 0 0 50px 0;
-  font-family: "Lato", sans-serif;
-  font-weight: 600;
-  color: #a26dad;
-  text-align: center;
-}
-.brands-container-title-alt {
-  color: #f79733;
-}
-.brands-image-container {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-@media only screen and (max-width: 1366px) {
-  .ARIES {
-    margin: 40px 0 0 0;
-  }
-  .DGHAL {
-    margin: 20px 0 0 0;
-  }
-  .WATAN {
-    margin: 20px 0 0 0;
-  }
-  .CGC {
-    margin: 50px 0 0 0;
-  }
-  .INVSELANG {
-    margin: 50px 0 0 0;
-  }
-  .MBI {
-    margin: 50px 0 0 0;
-  }
-}
 @media only screen and (max-width: 479px) {
   .brands-header-container {
     height: 150px;
@@ -69,12 +24,6 @@
   }
   .brands-header-title {
     font-size: 32px;
-  }
-  .brands-main-content {
-    padding: 50px 20px;
-  }
-  .brands-container-title {
-    font-size: 25px;
   }
   .ANTAH{
     width: 175px;
@@ -134,21 +83,12 @@
     width: 175px;
     height: 75px;
   }
-  .WATAN {
-    width: 290px;
-    height: 110px;
-  }
   .VTELE {
     width: 209px;
   }
   .JARING {
     width: 180px;
     height: 75px;
-  }
-  .SLMFN {
-    margin: 30px 0 0 0;
-    width: 320px;
-    height: 90px;
   }
   .ISLIM {
     width: 180px;
@@ -179,27 +119,9 @@
     width: 144px;
     height: 84px;
   }
-  .MOE {
-    width: 150px;
-    height: 115px;
-  }
-  .SELANG {
-    width: 150px;
-    height: 180px;
-  }
-  .CGC {
-    margin: 40px 0 0 0;
-    width: 180px;
-    height: 90px;
-  }
   .INVSELANG {
     width: 176px;
     height: 72px;
-  }
-  .MBI {
-    margin: 30px 50px 0 0;
-    width: 220px;
-    height: 120px;
   }
   .MTDC {
     width: 125px;
@@ -213,17 +135,6 @@
     background-repeat: repeat;
     background-position-y: 1px;
   }
-}
-@media only screen and (max-width: 375px) {
-  .MATRADE {
-    margin: 0 0 30px 0;
-  }
-  .SELANG {
-    width: 130px;
-    height: 150px;
-  }
-}
-@media only screen and (max-width: 320px) {
 }
 .brands-main-content-alt{
   display: flex;
