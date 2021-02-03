@@ -3,7 +3,7 @@ module.exports = {
     title: `Nexus Unique`,
     description: `Nexus Unique is a Public Relations consulting agency specialises in building,enhancing and strengthening reputation of corporations and organisations, including individuals via an integrated communications campaign.
     `,
-    author: `@gatsbyjs`,
+    author: `Tunku Nafishah Tunku Muinuddin`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
