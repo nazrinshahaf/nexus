@@ -15,7 +15,24 @@
   font-family: "Lato", sans-serif;
   margin: 0 0 0 0;
 }
+
+.brands-main-content-alt{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.brands-main-content-alt img{
+  margin: 30px 0;
+}
+
 @media only screen and (max-width: 479px) {
+
+  .brands-main-content-alt{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .brands-header-container {
     height: 150px;
     padding: 30px 30px 0px 30px;
@@ -135,13 +152,4 @@
     background-repeat: repeat;
     background-position-y: 1px;
   }
-}
-.brands-main-content-alt{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.brands-main-content-alt img{
-  margin: 30px 0;
 }
