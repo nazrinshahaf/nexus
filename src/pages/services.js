@@ -56,16 +56,12 @@ const Services = () => {
             Emergency Response plan.
             <br />
             <br />
-            We strongly believe that for an organisation to have an effective
-            Crisis Management Plan; the following plans must be aligned and made
-            consistent: -
-            <br />
-            <br />
-            Emergency Response Plan
-            <br />
-            Crisis Communication Plan
-            <br />
-            Business Continuity Plan
+            We strategise a plan that addresses the issues from the
+            communications perspective, help mitigate and avoid bad press and
+            help restore public confidence. In developing or enhancing the
+            Crisis Communication Plan, our expertise includes reviewing and
+            enhancing Business Continuity Management Programme and Emergency
+            Response plan.
           </div>
         </div>
       </div>
