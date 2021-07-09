@@ -118,11 +118,13 @@ const About = () => (
       </div>
       <div className="about-us-main-content-paragraph our-team-main-description">
         Throughout his involvement in the local PR industry, he has been
-        involved in advising and charting PR strategy & communications agenda
-        for several local and multinational clients in key industries covering
-        aerospace,  automobile, financial, construction, IT and e-business
-        solution providers, fashion and retail, construction, digital imaging
-        and even select clients which need ad hoc projects from time to time.
+        involved in advising and charting
+        <br />
+        PR strategy & communications agenda for several local and multinational
+        clients in key industries covering aerospace,  automobile, financial,
+        construction, IT and e-business solution providers, fashion and retail,
+        construction, digital imaging and even select clients which need ad hoc
+        projects from time to time.
       </div>
       <div className="about-us-main-content-paragraph our-team-main-description">
         His experience in advising international and local conferences include
