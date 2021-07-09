@@ -87,7 +87,8 @@ const Services = () => {
             We have the experience and know-how to manage the entire range of
             corporate and private events, covering all key areas from
             pre-planning, project management to on-site supervision, execution
-            and post event analysis.
+            and post event analysis. We work closely with our Virtual Event
+            Management partners to provide clients with virtual event solutions.
           </div>
         </div>
       </div>

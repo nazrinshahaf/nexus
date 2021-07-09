@@ -190,8 +190,14 @@
   }
 }
 @media only screen and (max-width: 425px) {
+  .our-services-services-container {
+    margin-bottom: 120px;
+  }
   .our-services-services-container-medium {
-    margin-bottom: 280px;
+    margin-bottom: 320px;
+  }
+  .our-services-services-container-long {
+    margin-bottom: 400px;
   }
 }
 @media only screen and (max-width: 375px) {
