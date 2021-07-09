@@ -32,17 +32,16 @@ const IndexPage = () => {
             <br />
             Izjulia Ishak, Chief Strategic Officer
           </div>
-          We have worked for leading Malaysian conglomerates and understand,
-          form the first-hand experience, the demands and complexities of
-          running a succesful business entity. This understanding allows us to
-          architect and execute communication plans that would shape and
-          transform public perception without compromising on their business
-          objectives.
+          We have worked for leading Malaysian conglomerates and understand from
+          the first-hand experience the demands and complexities of running a
+          successful business entity. This understanding allows us to architect
+          and execute communication plans that would shape and transform public
+          perception without compromising their business objectives.
           <div className="home-quote home-quote-alt">
             "This dedication infuses throughout our team and is visible in every
             aspect of our business. We recognise the distinctive needs and
-            aspirations of diffrent clients and work towards metting these
-            diffrent expectations. At Nexus Unique, we strive to deliver, not
+            aspirations of different clients and work towards metting these
+            different expectations. At Nexus Unique, we strive to deliver, not
             just produce."
             <br />
             <br />
