@@ -19,7 +19,9 @@ const Contact = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Suite 601, Block A, Lift Lobby 1 <br />
+          Nexus Unique Sdn Bhd, <br />
+          Registration Number: 200501003316	(680362-U) <br />
+          Suite 601, Block A, Lift Lobby 1 <br /> 
           Damansara Intan Business Centre <br />
           Jalan SS20/27, 27400 Petaling Jaya <br />
           Selangor Darul Ehsan, Malaysia
